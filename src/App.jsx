@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, { useMemo, useState, useEffect, useRef } from "react";
 
 const people = [
   {
@@ -60,7 +60,6 @@ const styles = {
     fontFamily: "system-ui",
     padding: "24px",
     background: "#f3f4f6",
-    minHeight: "100vh",
   },
   card: {
     background: "white",
@@ -94,6 +93,34 @@ function Person({ p, onClick }) {
 export default function App() {
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState(people[0]);
+  const containerRef = useRef(null);
+
+  const reportFrameHeight = () => {
+    const height = containerRef.current?.getBoundingClientRect().height;
+    if (!height || window.parent === window) return;
+    window.parent.postMessage(
+      { source: "isn-dashboard", type: "frame-height", height },
+      "*"
+    );
+  };
+
+  useEffect(() => {
+    reportFrameHeight();
+
+    const handleMessage = (event) => {
+      if (!event?.data || event.data.type !== "get-frame-height") return;
+      reportFrameHeight();
+    };
+
+    window.addEventListener("message", handleMessage);
+    const observer = new ResizeObserver(reportFrameHeight);
+    if (containerRef.current) observer.observe(containerRef.current);
+
+    return () => {
+      window.removeEventListener("message", handleMessage);
+      observer.disconnect();
+    };
+  }, []);
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase().trim();
@@ -107,7 +134,7 @@ export default function App() {
   }, [query]);
 
   return (
-    <div style={styles.container}>
+    <div ref={containerRef} style={styles.container}>
       <h1 style={{ marginTop: 0 }}>ISN External Stakeholder Dashboard</h1>
       <p style={{ color: "#555", maxWidth: "900px" }}>
         Snapshot reference dashboard for current offices and officeholders most
