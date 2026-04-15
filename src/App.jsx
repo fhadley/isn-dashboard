@@ -128,7 +128,6 @@ export default function App() {
     );
   }, [people, query]);
 
-  const selectedPos = selected ? primaryPosition(selected) : null;
 
   return (
     <div ref={containerRef} style={styles.container}>
@@ -182,12 +181,16 @@ export default function App() {
             <div>Loading…</div>
           ) : (
             <>
-              <h2 style={{ marginTop: 0 }}>{selected.name}</h2>
-              <div style={{ fontWeight: "600", marginBottom: "6px" }}>
-                {selectedPos?.title}
-              </div>
-              <div style={{ color: "#555", marginBottom: "16px" }}>
-                {selectedPos?.org} {selected.status ? `· ${selected.status}` : ""}
+              <div style={{ marginBottom: "16px" }}>
+                {(selected?.positions || []).map((pos, i) => (
+                  <div key={i} style={{ marginBottom: "10px" }}>
+                    <div style={{ fontWeight: "600" }}>{pos.title}</div>
+                    <div style={{ color: "#555" }}>{pos.org}</div>
+                  </div>
+                ))}
+                <div style={{ color: "#555" }}>
+                  {selected?.status}
+                </div>
               </div>
 
               <div style={{ marginBottom: "16px" }}>
