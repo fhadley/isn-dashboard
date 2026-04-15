@@ -1,0 +1,377 @@
+[
+  {
+    "name": "Anne Marie Petrock",
+    "positions": [
+      {
+        "title": "Director (A)",
+        "org": "DEVCOM ARO",
+        "parentOrg": "DEVCOM"
+      }
+    ],
+    "lane": [
+      "Army S&T Leadership"
+    ],
+    "highlight": true,
+    "importance": "High",
+    "status": "Acting",
+    "why": "Leads the Army’s extramural research organization. Is the senior officer at the MIT ISN's sponsor organization",
+    "hook": "ARO–ISN coupling and alignment with Army research priorities.",
+    "bio": "Acting Director of DEVCOM Army Research Office.",
+    "id": "anne-marie-petrock"
+  },
+  {
+    "name": "BG George “Chris” Hackler",
+    "positions": [],
+    "lane": [],
+    "highlight": true,
+    "importance": "Highest",
+    "status": "Current",
+    "why": "Oversees Natick Soldier Systems Center and serves as Deputy CG of DEVCOM, placing him at the intersection of Soldier-focused research, engineering, and capability development, with direct relevance to ISN’s core mission area.",
+    "hook": "ISN as a source of advanced Soldier-relevant materials and systems research aligned to Natick priorities, with clear pathways into DEVCOM-led development and fielding of Soldier capabilities.",
+    "bio": "Senior Commander of Natick Soldier Systems Center and Deputy Commanding General of DEVCOM, responsible for leadership across Soldier-focused research, development, and engineering activities. Senior Army officer with extensive experience aligning science and technology to operational needs and capability development.",
+    "id": "bg-george-chris-hackler"
+  },
+  {
+    "name": "BG Robert Born",
+    "positions": [
+      {
+        "title": "Commanding General",
+        "org": "DEVCOM",
+        "parentOrg": "Futures and Concepts Command (FCC)"
+      }
+    ],
+    "lane": [
+      "Army S&T Leadership",
+      "Transition"
+    ],
+    "highlight": true,
+    "importance": "Highest",
+    "status": "Current",
+    "why": "Leads the Army’s primary S&T command responsible for integrating research, engineering, and capability development — directly influencing how and whether ISN research aligns with and transitions into Army priorities.",
+    "hook": "ISN as a source of foundational research aligned to DEVCOM mission needs, with emphasis on strengthening pathways from basic research to DEVCOM-managed capability development and integration.",
+    "bio": "Commanding General of DEVCOM, the Army’s core organization for science, technology, and engineering supporting capability development and sustainment. Career infantry officer with extensive operational and command experience, including multiple combat deployments and senior staff roles across Army and Joint organizations.",
+    "id": "bg-robert-born"
+  },
+  {
+    "name": "Brent Ingraham",
+    "positions": [
+      {
+        "title": "Assistant Secretary of the Army (Acquisition, Logistics and Technology)",
+        "org": "U.S. Army",
+        "parentOrg": "Department of War"
+      }
+    ],
+    "lane": [
+      "Acquisition / Transition",
+      "Modernization"
+    ],
+    "highlight": true,
+    "importance": "Highest",
+    "status": "Current",
+    "why": "Oversees the Army’s acquisition enterprise, including technology development, procurement, and logistics, directly determining how and whether research transitions into programs of record and fielded capabilities.",
+    "hook": "ISN as a source of foundational technologies aligned to acquisition priorities, with emphasis on strengthening pathways from research through prototyping into acquisition and fielding.",
+    "bio": "Assistant Secretary of the Army for Acquisition, Logistics and Technology responsible for the Army’s acquisition system and lifecycle management of technologies and systems. Senior civilian leader focused on delivering capabilities to the force through effective integration of research, development, and procurement.",
+    "id": "brent-ingraham"
+  },
+  {
+    "name": "Chris Manning",
+    "positions": [
+      {
+        "title": "Deputy Assistant Secretary of the Army for Research and Technology (DASA(R&T))",
+        "org": "Office of the Assistant Secretary of the Army for Acquisition, Logistics and Technology (OASA(ALT))",
+        "parentOrg": "Army"
+      }
+    ],
+    "lane": [
+      "Army S&T Leadership",
+      "Acquisition / Transition"
+    ],
+    "highlight": true,
+    "importance": "Highest",
+    "status": "Current",
+    "why": "Oversees and coordinates the Army’s full research, applied research, and advanced development portfolio (6.1–6.3), directly shaping priorities, funding alignment, and the transition environment for programs like ISN.",
+    "hook": "ISN as a high-performing basic research program aligned to Army S&T priorities with clear pathways into DEVCOM and acquisition programs, supporting stronger 6.1–6.3 continuity and transition outcomes.",
+    "bio": "Deputy Assistant Secretary of the Army for Research & Technology responsible for planning, coordination, and oversight of the Army’s S&T and development portfolio. Former DEVCOM and G-8 senior leader with deep experience in S&T integration, prototyping, and acquisition program alignment across Army modernization efforts.",
+    "id": "chris-manning"
+  },
+  {
+    "name": "Daniel Driscoll",
+    "positions": [
+      {
+        "title": "Secretary of the Army (SecArmy)",
+        "org": "U.S. Army",
+        "parentOrg": "Department of War"
+      }
+    ],
+    "lane": [
+      "Senior Leadership",
+      "Policy / Oversight"
+    ],
+    "highlight": true,
+    "importance": "Highest",
+    "status": "Current",
+    "why": "Provides overall leadership and direction for the Army, with ultimate authority over priorities, funding posture, and institutional support for research and modernization efforts, including programs like ISN.",
+    "hook": "ISN as a high-value Army research asset contributing directly to Soldier capability and national security priorities, with demonstrable impact and alignment to Army modernization needs.",
+    "bio": "Secretary of the Army responsible for the organization, training, and equipping of the U.S. Army. Senior civilian leader overseeing policy, resources, and strategic direction across all Army activities, including research and development.",
+    "id": "daniel-driscoll"
+  },
+  {
+    "name": "David Stepp",
+    "positions": [
+      {
+        "title": "Chief Scientist",
+        "org": "DEVCOM ARO",
+        "parentOrg": "DEVCOM"
+      }
+    ],
+    "lane": [
+      "Basic Research",
+      "Technical Leadership"
+    ],
+    "highlight": false,
+    "importance": "High",
+    "status": "Current",
+    "why": "Serves as the senior technical authority for DEVCOM ARO, influencing research direction, scientific priorities, and evaluation of basic research programs, including those aligned with ISN.",
+    "hook": "ISN as a high-quality basic research program delivering scientifically rigorous, Army-relevant advances aligned to DEVCOM ARO priorities and long-term S&T strategy.",
+    "bio": "Chief Scientist of DEVCOM ARO responsible for technical leadership across the basic research portfolio, shaping scientific priorities and ensuring quality and relevance of funded research programs.",
+    "id": "david-stepp"
+  },
+  {
+    "name": "Dimitra Stratis-Cullum",
+    "positions": [
+      {
+        "title": "Chief Scientist",
+        "org": "DEVCOM ARL",
+        "parentOrg": "DEVCOM"
+      }
+    ],
+    "lane": [
+      "Basic Research",
+      "Technical Leadership",
+      "Transition"
+    ],
+    "highlight": false,
+    "importance": "High",
+    "status": "Current",
+    "why": "Serves as the senior technical authority for ARL, shaping research priorities, scientific direction, and integration of fundamental research into Army-relevant capabilities, directly influencing alignment and collaboration opportunities with ISN.",
+    "hook": "ISN as a source of advanced, Army-relevant research aligned to ARL priorities, with strong potential for collaboration and integration into ARL-led programs and transition pathways.",
+    "bio": "Chief Scientist of DEVCOM Army Research Laboratory responsible for technical direction and scientific leadership across the Army’s core intramural research enterprise, guiding priorities and integration of research into capability development.",
+    "id": "dimitra-stratis-cullum"
+  },
+  {
+    "name": "Elizabeth Warren",
+    "positions": [
+      {
+        "title": "U.S. Senator",
+        "org": "U.S. Senate",
+        "parentOrg": "United States Congress"
+      }
+    ],
+    "lane": [
+      "Congressional Oversight",
+      "Defense Policy"
+    ],
+    "highlight": false,
+    "importance": "High",
+    "status": "Current",
+    "why": "Senior U.S. Senator with influence over federal funding, oversight, and policy affecting defense research, universities, and programs like ISN.",
+    "hook": "ISN as a Massachusetts-based research institution contributing to national security, economic development, and technological leadership, with clear public value and accountability.",
+    "bio": "U.S. Senator representing Massachusetts with a significant role in federal policy, oversight, and funding decisions. Engages in issues related to defense, technology, and economic policy.",
+    "id": "elizabeth-warren"
+  },
+  {
+    "name": "Emil Michael",
+    "positions": [
+      {
+        "title": "Under Secretary of War for Research and Engineering",
+        "org": "OUSD(R&E)",
+        "parentOrg": "Department of War"
+      },
+      {
+        "title": "Chief Technology Officer",
+        "org": "Department of War",
+        "parentOrg": "Department of War"
+      }
+    ],
+    "lane": [
+      "DoD S&T Direction"
+    ],
+    "highlight": true,
+    "importance": "Highest",
+    "status": "Current",
+    "why": "Sets the Department’s overall research, development, and prototyping direction, with direct oversight of DARPA, MDA, and the broader S&T enterprise — making him one of the most consequential figures shaping the environment in which ISN operates and is evaluated.",
+    "hook": "ISN as a high-leverage UARC model that integrates fundamental research with transition pathways and MIT Lincoln Laboratory collaboration, aligned with accelerating prototype-to-capability timelines and leveraging commercial innovation.",
+    "bio": "Under Secretary of War for Research and Engineering and Department CTO overseeing the full defense R&D enterprise, including DARPA and MDA. Former White House Fellow and defense advisor with significant private-sector leadership experience, including senior roles at Uber and investments across AI, quantum computing, and advanced technology sectors.",
+    "id": "emil-michael"
+  },
+  {
+    "name": "Eric Moore",
+    "positions": [
+      {
+        "title": "Director (A)",
+        "org": "DEVCOM ARL",
+        "parentOrg": "DEVCOM"
+      }
+    ],
+    "lane": [
+      "Army S&T Leadership"
+    ],
+    "highlight": true,
+    "importance": "High",
+    "status": "Acting",
+    "why": "Leads the Army’s core intramural research lab.",
+    "hook": "ARL–ISN coupling and alignment with Army research priorities.",
+    "bio": "Acting Director of DEVCOM Army Research Laboratory.",
+    "id": "eric-moore"
+  },
+  {
+    "name": "Jason Crow",
+    "positions": [
+      {
+        "title": "U.S. Representative",
+        "org": "U.S. House of Representatives",
+        "parentOrg": "United States Congress"
+      }
+    ],
+    "lane": [
+      "Congressional Oversight",
+      "Defense Policy"
+    ],
+    "highlight": false,
+    "importance": "High",
+    "status": "Current",
+    "why": "Member of Congress with involvement in defense and national security issues, influencing policy, authorization, and oversight affecting Army research, funding, and programs like ISN.",
+    "hook": "ISN as a driver of innovation, workforce development, and national security impact, with clear contributions to U.S. technological advantage and defense capability.",
+    "bio": "U.S. Representative with a background in military service and involvement in defense and national security policy. Engages in oversight and legislative activity related to defense programs and innovation.",
+    "id": "jason-crow"
+  },
+  {
+    "name": "Joe Jewell",
+    "positions": [
+      {
+        "title": "Assistant Secretary of War for Science and Technology (ASW(S&T))",
+        "org": "Office of the Under Secretary of War for Research and Engineering (OUSW(R&E))",
+        "parentOrg": "Department of War (DoW)"
+      }
+    ],
+    "lane": [
+      "DoW S&T Leadership"
+    ],
+    "highlight": true,
+    "importance": "Highest",
+    "status": "Current",
+    "why": "Leads DoW’s science and technology enterprise and sets priorities across basic research, prototyping, and experimentation — directly shaping the environment in which ISN operates, including UARCs, SBIR/STTR, and Manufacturing Technology programs.",
+    "hook": "ISN as a high-performing UARC model linking fundamental research to Army-relevant transition pathways — with particular alignment to hypersonics, advanced materials, and manufacturing innovation.",
+    "bio": "Assistant Secretary of War for Science and Technology overseeing the Department’s S&T enterprise, including laboratories, FFRDCs, and UARCs. Former Purdue professor and AFRL researcher specializing in hypersonic aerothermodynamics, with extensive experience in experimental facilities and flight data analysis.",
+    "id": "joe-jewell"
+  },
+  {
+    "name": "LTG Edmond “Miles” Brown",
+    "positions": [
+      {
+        "title": "Acting Commanding General",
+        "org": "Transformation and Training Command (T2COM)",
+        "parentOrg": "U.S. Army"
+      }
+    ],
+    "lane": [
+      "Requirements / Concepts",
+      "Modernization",
+      "Training / Force Development"
+    ],
+    "highlight": true,
+    "importance": "Highest",
+    "status": "Acting",
+    "why": "Leads the Army’s Transformation and Training Command, which integrates force development, training, and the technology and modernization functions previously under Army Futures Command, making it the central node for translating emerging technologies into requirements, doctrine, and operational capability.",
+    "hook": "ISN as a source of foundational research aligned to future force concepts, with emphasis on informing requirements, enabling technology integration, and supporting the transition from discovery to operational capability within the T2COM framework.",
+    "bio": "Acting Commanding General of Transformation and Training Command, which combines the Army’s traditional training and doctrine functions with the technology and modernization responsibilities formerly under Army Futures Command. Senior Army leader with extensive operational and command experience, focused on aligning emerging technologies with force development, requirements, and readiness.",
+    "id": "ltg-edmond-miles-brown"
+  },
+  {
+    "name": "LTG Michael McCurry",
+    "positions": [
+      {
+        "title": "Commanding General",
+        "org": "Futures and Concepts Command (FCC)",
+        "parentOrg": "Transformation and Training Command (T2COM)"
+      }
+    ],
+    "lane": [
+      "Army S&T Leadership",
+      "Requirements/Concepts",
+      "Modernization",
+      "Transition"
+    ],
+    "highlight": true,
+    "importance": "Highest",
+    "status": "Current",
+    "why": "Leads the Army’s command responsible for future force concepts, requirements development, and integration, directly determining which technologies are prioritized and translated into actionable capability needs.",
+    "hook": "ISN as a source of foundational research that informs future force concepts and requirements, with emphasis on shaping early-stage capability framing and strengthening the pathway from discovery to requirements-driven development.",
+    "bio": "Commanding General of the Army’s Futures and Concepts Command under T2COM, overseeing concept development, requirements generation, and integration of emerging technologies into the future force. Senior Army leader with extensive operational and command experience focused on aligning innovation with battlefield needs.",
+    "id": "ltg-michael-mccurry"
+  },
+  {
+    "name": "Nate Larm",
+    "positions": [
+      {
+        "title": "Program Manager (A)",
+        "org": "Army Research Office (ARO)",
+        "parentOrg": "DEVCOM"
+      }
+    ],
+    "lane": [
+      "Direct Sponsor",
+      "Basic Research"
+    ],
+    "highlight": false,
+    "importance": "High",
+    "status": "Acting",
+    "why": "Serves as the direct program management interface for ISN within ARO, responsible for oversight, execution, and sponsor communication, making him critical to day-to-day alignment, reporting, and responsiveness.",
+    "hook": "ISN as a responsive, high-quality basic research program aligned to Army priorities, with strong communication and execution supporting effective sponsor engagement.",
+    "bio": "Acting Program Manager at the Army Research Office responsible for oversight and coordination of research programs. Serves as a primary point of contact between sponsored research efforts and Army S&T leadership.",
+    "id": "nate-larm"
+  },
+  {
+    "name": "Seth Moulton",
+    "positions": [
+      {
+        "title": "U.S. Representative",
+        "org": "U.S. House of Representatives",
+        "parentOrg": "United States Congress"
+      }
+    ],
+    "lane": [
+      "Congressional Oversight",
+      "Defense Policy"
+    ],
+    "highlight": false,
+    "importance": "High",
+    "status": "Current",
+    "why": "Member of Congress with direct military experience and active engagement in defense issues, influencing authorization, oversight, and support for defense research and innovation efforts.",
+    "hook": "ISN as a Massachusetts-based national security research asset supporting warfighter capability and technological leadership, aligned with defense priorities and innovation policy.",
+    "bio": "U.S. Representative and former Marine Corps officer with operational experience, actively engaged in defense and national security policy. Focused on strengthening U.S. military capability and innovation.",
+    "id": "seth-moulton"
+  },
+  {
+    "name": "Troy Denomy",
+    "positions": [
+      {
+        "title": "Capability Portfolio Executive (Ground)",
+        "org": "CPE Ground",
+        "parentOrg": "U.S. Army"
+      }
+    ],
+    "lane": [
+      "Acquisition / Transition",
+      "Ground Systems",
+      "Capability Integration"
+    ],
+    "highlight": true,
+    "importance": "Highest",
+    "status": "Current",
+    "why": "Leads the Army’s ground capability portfolio, overseeing development, integration, and delivery of ground systems, making him a key decision-maker in whether and how research transitions into fielded capabilities.",
+    "hook": "ISN as a source of Soldier-relevant technologies and materials that can transition into ground systems, with emphasis on aligning early-stage research to capability gaps and integration pathways within CPE Ground.",
+    "bio": "Capability Portfolio Executive for Ground responsible for overseeing the Army’s ground systems portfolio, including development, integration, and fielding of capabilities. Senior acquisition leader focused on translating technology into operational systems aligned with Army modernization priorities.",
+    "id": "troy-denomy"
+  }
+]
