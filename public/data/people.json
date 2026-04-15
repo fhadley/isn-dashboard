@@ -21,8 +21,23 @@
   },
   {
     "name": "BG George “Chris” Hackler",
-    "positions": [],
-    "lane": [],
+    "positions": [
+      {
+        "title": "Senior Commander",
+        "org": "Natick Soldier Systems Center",
+        "parentOrg": "DEVCOM"
+      },
+      {
+        "title": "Deputy Commanding General",
+        "org": "DEVCOM",
+        "parentOrg": "Futures and Concepts Command (FCC)"
+      }
+    ],
+    "lane": [
+      "Army S&T Leadership",
+      "Soldier Systems",
+      "Transition"
+    ],
     "highlight": true,
     "importance": "Highest",
     "status": "Current",
