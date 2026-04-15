@@ -1,60 +1,5 @@
 import React, { useMemo, useState, useEffect, useRef } from "react";
 
-const people = [
-  {
-    id: "emil-michael",
-    name: "Emil Michael",
-    office: "Under Secretary of Defense for Research and Engineering",
-    org: "OUSD(R&E)",
-    lane: "DoD S&T Direction",
-    highlight: true,
-    importance: "High",
-    why: "Sets top-level DoD research and engineering direction.",
-    hook: "ISN as an integrated RDT&E model linking MIT and MIT Lincoln Laboratory.",
-    bio: "Senior DoD research and engineering leader shaping the strategic environment for UARCs.",
-    status: "Current",
-  },
-  {
-    id: "chris-manning",
-    name: "Chris Manning",
-    office: "DASA(R&T)",
-    org: "Army",
-    lane: "Army S&T Leadership",
-    highlight: true,
-    importance: "High",
-    why: "Senior Army S&T leadership with direct relevance to ISN.",
-    hook: "Concrete Army outcomes and sponsor alignment.",
-    bio: "Senior Army science and technology official relevant for ISN positioning.",
-    status: "Current",
-  },
-  {
-    id: "petrock",
-    name: "Anne Marie Petrock",
-    office: "Director (A), ARO",
-    org: "DEVCOM ARL / ARO",
-    lane: "Direct Sponsor",
-    highlight: true,
-    importance: "Highest",
-    why: "Direct extramural sponsor of ISN.",
-    hook: "ISN performance, stewardship, and responsiveness.",
-    bio: "Acting leader of the Army Research Office.",
-    status: "Acting",
-  },
-  {
-    id: "denomy",
-    name: "Troy Denomy",
-    office: "CPE Ground",
-    org: "Army",
-    lane: "Transition",
-    highlight: true,
-    importance: "Highest",
-    why: "Primary ground capability integration authority.",
-    hook: "ISN → ground capability relevance.",
-    bio: "Leads Capability Portfolio Executive Ground.",
-    status: "Current",
-  },
-];
-
 const styles = {
   container: {
     fontFamily: "system-ui",
@@ -75,7 +20,15 @@ const styles = {
   },
 };
 
+function primaryPosition(person) {
+  return person.positions && person.positions.length > 0
+    ? person.positions[0]
+    : { title: "", org: "", parentOrg: "" };
+}
+
 function Person({ p, onClick }) {
+  const pos = primaryPosition(p);
+
   return (
     <div
       style={{
@@ -85,15 +38,30 @@ function Person({ p, onClick }) {
       onClick={() => onClick(p)}
     >
       <strong>{p.name}</strong>
-      <div>{p.office}</div>
-      <div style={{ fontSize: "12px", color: "#555" }}>{p.org}</div>
+      <div>{pos.title}</div>
+      <div style={{ fontSize: "12px", color: "#555" }}>{pos.org}</div>
     </div>
   );
 }
+
 export default function App() {
+  const [people, setPeople] = useState([]);
   const [query, setQuery] = useState("");
-  const [selected, setSelected] = useState(people[0]);
+  const [selected, setSelected] = useState(null);
   const containerRef = useRef(null);
+
+  useEffect(() => {
+    fetch("/data/people.json")
+      .then((res) => res.json())
+      .then((data) => setPeople(data))
+      .catch((err) => console.error("Failed to load people:", err));
+  }, []);
+
+  useEffect(() => {
+    if (people.length > 0 && !selected) {
+      setSelected(people[0]);
+    }
+  }, [people, selected]);
 
   const reportFrameHeight = () => {
     const height = containerRef.current?.getBoundingClientRect().height;
@@ -120,18 +88,28 @@ export default function App() {
       window.removeEventListener("message", handleMessage);
       observer.disconnect();
     };
-  }, []);
+  }, [people, selected, query]);
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase().trim();
     if (!q) return people;
+
     return people.filter((p) =>
-      [p.name, p.office, p.org, p.lane, p.why, p.hook, p.bio]
+      [
+        p.name,
+        ...(p.positions || []).flatMap((pos) => [pos.title, pos.org, pos.parentOrg]),
+        ...(p.lane || []),
+        p.why,
+        p.hook,
+        p.bio,
+      ]
         .join(" ")
         .toLowerCase()
         .includes(q)
     );
-  }, [query]);
+  }, [people, query]);
+
+  const selectedPos = selected ? primaryPosition(selected) : null;
 
   return (
     <div ref={containerRef} style={styles.container}>
@@ -181,39 +159,47 @@ export default function App() {
             padding: "20px",
           }}
         >
-          <h2 style={{ marginTop: 0 }}>{selected.name}</h2>
-          <div style={{ fontWeight: "600", marginBottom: "6px" }}>
-            {selected.office}
-          </div>
-          <div style={{ color: "#555", marginBottom: "16px" }}>
-            {selected.org} · {selected.status}
-          </div>
+          {!selected ? (
+            <div>Loading…</div>
+          ) : (
+            <>
+              <h2 style={{ marginTop: 0 }}>{selected.name}</h2>
+              <div style={{ fontWeight: "600", marginBottom: "6px" }}>
+                {selectedPos?.title}
+              </div>
+              <div style={{ color: "#555", marginBottom: "16px" }}>
+                {selectedPos?.org} {selected.status ? `· ${selected.status}` : ""}
+              </div>
 
-          <div style={{ marginBottom: "16px" }}>
-            <strong>Why they matter</strong>
-            <div style={{ marginTop: "6px", color: "#444", lineHeight: 1.6 }}>
-              {selected.why}
-            </div>
-          </div>
+              <div style={{ marginBottom: "16px" }}>
+                <strong>Why they matter</strong>
+                <div style={{ marginTop: "6px", color: "#444", lineHeight: 1.6 }}>
+                  {selected.why}
+                </div>
+              </div>
 
-          <div style={{ marginBottom: "16px" }}>
-            <strong>Suggested hook</strong>
-            <div style={{ marginTop: "6px", color: "#444", lineHeight: 1.6 }}>
-              {selected.hook}
-            </div>
-          </div>
+              <div style={{ marginBottom: "16px" }}>
+                <strong>Suggested hook</strong>
+                <div style={{ marginTop: "6px", color: "#444", lineHeight: 1.6 }}>
+                  {selected.hook}
+                </div>
+              </div>
 
-          <div style={{ marginBottom: "16px" }}>
-            <strong>Biographical note</strong>
-            <div style={{ marginTop: "6px", color: "#444", lineHeight: 1.6 }}>
-              {selected.bio}
-            </div>
-          </div>
+              <div style={{ marginBottom: "16px" }}>
+                <strong>Biographical note</strong>
+                <div style={{ marginTop: "6px", color: "#444", lineHeight: 1.6 }}>
+                  {selected.bio}
+                </div>
+              </div>
 
-          <div>
-            <strong>Lane</strong>
-            <div style={{ marginTop: "6px", color: "#444" }}>{selected.lane}</div>
-          </div>
+              <div>
+                <strong>Lane</strong>
+                <div style={{ marginTop: "6px", color: "#444" }}>
+                  {(selected.lane || []).join(", ")}
+                </div>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>
