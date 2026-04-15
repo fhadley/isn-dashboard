@@ -20,6 +20,15 @@ const styles = {
   },
 };
 
+const positionBlockStyle = (i) => ({
+  marginTop: i === 0 ? 4 : 10,
+});
+
+const orgStyle = {
+  fontSize: 12,
+  color: "#555",
+};
+
 function primaryPosition(person) {
   return person.positions && person.positions.length > 0
     ? person.positions[0]
@@ -27,8 +36,6 @@ function primaryPosition(person) {
 }
 
 function Person({ p, onClick }) {
-  const pos = primaryPosition(p);
-
   return (
     <div
       style={{
@@ -38,8 +45,20 @@ function Person({ p, onClick }) {
       onClick={() => onClick(p)}
     >
       <strong>{p.name}</strong>
-      <div>{pos.title}</div>
-      <div style={{ fontSize: "12px", color: "#555" }}>{pos.org}</div>
+
+      {(p.positions || []).map((pos, i) => (
+        <div
+          key={i}
+          style={positionBlockStyle(i)}
+        >
+          <div>{pos.title}</div>
+          <div
+            style={orgStyle}
+          >
+            {pos.org}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
