@@ -163,7 +163,13 @@ export default function App() {
           alignItems: "start",
         }}
       >
-        <div>
+        <div
+          style={{
+            maxHeight: "80vh",
+            overflowY: "auto",
+            paddingRight: "8px",
+          }}
+        >
           <h2 style={{ marginTop: 0 }}>People</h2>
           {filtered.map((p) => (
             <Person key={p.id} p={p} onClick={setSelected} />
@@ -176,8 +182,14 @@ export default function App() {
             border: "1px solid #ddd",
             borderRadius: "12px",
             padding: "20px",
+            position: "sticky",
+            top: "24px",
+            alignSelf: "start",
+            maxHeight: "80vh",
+            overflowY: "auto",
           }}
         >
+          
           {!selected ? (
             <div>Loading…</div>
           ) : (
