@@ -1,6 +1,7 @@
 [
   {
     "name": "Anne Marie Petrock",
+    "photo": "/photos/anne-marie-petrock.jpg",
     "positions": [
       {
         "title": "Director (A)",
@@ -21,6 +22,7 @@
   },
   {
     "name": "BG George “Chris” Hackler",
+    "photo": "/photos/bg-george-chris-hackler.jpg",
     "positions": [
       {
         "title": "Senior Commander",
@@ -48,6 +50,7 @@
   },
   {
     "name": "BG Robert Born",
+    "photo": "/photos/bg-robert-born.jpg",
     "positions": [
       {
         "title": "Commanding General",
@@ -153,6 +156,7 @@
   },
   {
     "name": "Dimitra Stratis-Cullum",
+    "photo": "/photos/dimitra-stratis-cullum.jpg",
     "positions": [
       {
         "title": "Chief Scientist",
@@ -282,6 +286,7 @@
   },
   {
     "name": "LTG Edmond “Miles” Brown",
+    "photo": "/photos/ltg-edmond-miles-brown.jpg",
     "positions": [
       {
         "title": "Acting Commanding General",
@@ -304,6 +309,7 @@
   },
   {
     "name": "LTG Michael McCurry",
+    "photo": "/photos/ltg-michael-mccurry.jpg",
     "positions": [
       {
         "title": "Commanding General",
