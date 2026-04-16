@@ -177,7 +177,7 @@
     "name": "Elizabeth Warren",
     "positions": [
       {
-        "title": "U.S. Senator",
+        "title": "U.S. Senator (D—MA)",
         "org": "U.S. Senate",
         "parentOrg": "United States Congress"
       }
@@ -191,7 +191,7 @@
     "status": "Current",
     "why": "Senior U.S. Senator with influence over federal funding, oversight, and policy affecting defense research, universities, and programs like ISN.",
     "hook": "ISN as a Massachusetts-based research institution contributing to national security, economic development, and technological leadership, with clear public value and accountability.",
-    "bio": "U.S. Senator representing Massachusetts with a significant role in federal policy, oversight, and funding decisions. Engages in issues related to defense, technology, and economic policy.",
+    "bio": "U.S. Senator representing Massachusetts with a significant role in federal policy, oversight, and funding decisions. Engages in issues related to defense, technology, and economic policy. Member of SASC, Ranking Member on SASC Subcommittee on Personnel, and Member of SASC Subcommittee on Strategic Forces",
     "id": "elizabeth-warren"
   },
   {
@@ -243,7 +243,7 @@
     "name": "Jason Crow",
     "positions": [
       {
-        "title": "U.S. Representative",
+        "title": "U.S. Representative (D—CO)",
         "org": "U.S. House of Representatives",
         "parentOrg": "United States Congress"
       }
@@ -257,7 +257,7 @@
     "status": "Current",
     "why": "Member of Congress with involvement in defense and national security issues, influencing policy, authorization, and oversight affecting Army research, funding, and programs like ISN.",
     "hook": "ISN as a driver of innovation, workforce development, and national security impact, with clear contributions to U.S. technological advantage and defense capability.",
-    "bio": "U.S. Representative with a background in military service and involvement in defense and national security policy. Engages in oversight and legislative activity related to defense programs and innovation.",
+    "bio": "U.S. Representative with a background in military service and involvement in defense and national security policy. Engages in oversight and legislative activity related to defense programs and innovation. Ranking Member on HASC Subcommittee on Intelligence and Special Operations and Member of HASC Subcommittee on Cyber, Information Technologies, and Innovation.",
     "id": "jason-crow"
   },
   {
@@ -350,7 +350,7 @@
     "name": "Seth Moulton",
     "positions": [
       {
-        "title": "U.S. Representative",
+        "title": "U.S. Representative (D—MA)",
         "org": "U.S. House of Representatives",
         "parentOrg": "United States Congress"
       }
@@ -364,7 +364,7 @@
     "status": "Current",
     "why": "Member of Congress with direct military experience and active engagement in defense issues, influencing authorization, oversight, and support for defense research and innovation efforts.",
     "hook": "ISN as a Massachusetts-based national security research asset supporting warfighter capability and technological leadership, aligned with defense priorities and innovation policy.",
-    "bio": "U.S. Representative and former Marine Corps officer with operational experience, actively engaged in defense and national security policy. Focused on strengthening U.S. military capability and innovation.",
+    "bio": "U.S. Representative and former Marine Corps officer with operational experience, actively engaged in defense and national security policy. Focused on strengthening U.S. military capability and innovation. Ranking Member on HASC Subcommittee on Strategic Forces and Member of HASC Subcommittee on Cyber, Information Technologies, and Innovation.",
     "id": "seth-moulton"
   },
   {
