@@ -33,8 +33,7 @@
     "lane": [
       "Army S&T Leadership"
     ],
-    "highlight": true,
-    "importance": "High",
+    "tier": 1,
     "status": "Acting",
     "why": "Leads the Army’s extramural research organization. Is the senior officer at the MIT ISN's sponsor organization",
     "hook": "ARO–ISN coupling and alignment with Army research priorities.",
