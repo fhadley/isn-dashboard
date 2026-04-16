@@ -1,5 +1,26 @@
 [
   {
+    "name": "Akash Jain",
+    "positions": [
+      {
+        "title": "President and CTO",
+        "org": "Palantir USG",
+        "parentOrg": "Palantir Technologies"
+      }
+    ],
+    "lane": [
+      "Industry",
+      "AI / Software",
+      "Transition"
+    ],
+    "tier": 3,
+    "status": "Current",
+    "why": "Sits at a key nexus of defense software, AI deployment, government mission support, and operational data integration.",
+    "hook": "MIT ISN as a source of sensing, edge-compute, photonic/electronic hardware, and data-rich technical capabilities that can become more powerful when paired with AI-enabled software platforms.",
+    "bio": "President and CTO of Palantir USG.",
+    "id": "akash-jain"
+  },
+  {
     "name": "Anne Marie Petrock",
     "photo": "/photos/anne-marie-petrock.jpg",
     "positions": [
@@ -40,8 +61,7 @@
       "Soldier Systems",
       "Transition"
     ],
-    "highlight": true,
-    "importance": "Highest",
+    "tier": 1,
     "status": "Current",
     "why": "Oversees Natick Soldier Systems Center and serves as Deputy CG of DEVCOM, placing him at the intersection of Soldier-focused research, engineering, and capability development, with direct relevance to ISN’s core mission area.",
     "hook": "ISN as a source of advanced Soldier-relevant materials and systems research aligned to Natick priorities, with clear pathways into DEVCOM-led development and fielding of Soldier capabilities.",
@@ -62,8 +82,7 @@
       "Army S&T Leadership",
       "Transition"
     ],
-    "highlight": true,
-    "importance": "Highest",
+    "tier": 1,
     "status": "Current",
     "why": "Leads the Army’s primary S&T command responsible for integrating research, engineering, and capability development — directly influencing how and whether ISN research aligns with and transitions into Army priorities.",
     "hook": "ISN as a source of foundational research aligned to DEVCOM mission needs, with emphasis on strengthening pathways from basic research to DEVCOM-managed capability development and integration.",
@@ -71,11 +90,54 @@
     "id": "bg-robert-born"
   },
   {
+    "name": "BG Troy Denomy",
+    "photo": "/photos/bg-troy-denomy.jpg",
+    "positions": [
+      {
+        "title": "Capability Portfolio Executive (Ground)",
+        "org": "CPE Ground",
+        "parentOrg": "U.S. Army"
+      }
+    ],
+    "lane": [
+      "Acquisition / Transition",
+      "Ground Systems",
+      "Capability Integration"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Leads the Army’s ground capability portfolio, overseeing development, integration, and delivery of ground systems, making him a key decision-maker in whether and how research transitions into fielded capabilities.",
+    "hook": "ISN as a source of Soldier-relevant technologies and materials that can transition into ground systems, with emphasis on aligning early-stage research to capability gaps and integration pathways within CPE Ground.",
+    "bio": "Capability Portfolio Executive for Ground responsible for overseeing the Army’s ground systems portfolio, including development, integration, and fielding of capabilities. Senior acquisition leader focused on translating technology into operational systems aligned with Army modernization priorities.",
+    "id": "bg-troy-denomy"
+  },
+  {
+    "name": "Brandon Teoh",
+    "positions": [
+      {
+        "title": "Low Observables Engineer",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril"
+      }
+    ],
+    "lane": [
+      "Industry",
+      "Materials"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Works directly on low observable technologies, making him a key technical interface for materials-focused collaboration.",
+    "hook": "MIT ISN as a source of advanced materials, nanostructures, and coatings relevant to low observable systems.",
+    "bio": "Low Observables Engineer at Anduril Industries focused on signature reduction technologies.",
+    "id": "brandon-teoh"
+  },
+  {
     "name": "Brent Ingraham",
+    "photo": "/photos/brent-ingraham.jpg",
     "positions": [
       {
         "title": "Assistant Secretary of the Army (Acquisition, Logistics and Technology)",
-        "org": "U.S. Army",
+        "org": "Department of the Army",
         "parentOrg": "Department of War"
       }
     ],
@@ -83,8 +145,7 @@
       "Acquisition / Transition",
       "Modernization"
     ],
-    "highlight": true,
-    "importance": "Highest",
+    "tier": 2,
     "status": "Current",
     "why": "Oversees the Army’s acquisition enterprise, including technology development, procurement, and logistics, directly determining how and whether research transitions into programs of record and fielded capabilities.",
     "hook": "ISN as a source of foundational technologies aligned to acquisition priorities, with emphasis on strengthening pathways from research through prototyping into acquisition and fielding.",
@@ -92,7 +153,133 @@
     "id": "brent-ingraham"
   },
   {
+    "name": "Brian Schimpf",
+    "positions": [
+      {
+        "title": "Co-Founder and Chief Executive Officer",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril Industries"
+      }
+    ],
+    "lane": [
+      "Industry",
+      "Nontraditional Defense",
+      "Transition"
+    ],
+    "tier": 3,
+    "status": "Current",
+    "why": "Leads one of the most important nontraditional defense firms in autonomy, sensing, software-defined defense systems, and rapid operational fielding.",
+    "hook": "MIT ISN as a source of advanced sensing, materials, power, computation, and edge-enabling technologies that can feed nontraditional transition pathways and dual-use productization.",
+    "bio": "Co-Founder and Chief Executive Officer of Anduril Industries.",
+    "id": "brian-schimpf"
+  },
+  {
+    "name": "Brig Gen Jason Bartolomei",
+    "positions": [
+      {
+        "title": "Commander",
+        "org": "Air Force Research Laboratory (AFRL)",
+        "parentOrg": "Department of the Air Force"
+      }
+    ],
+    "lane": [
+      "Service S&T Leadership",
+      "Air and Space Research",
+      "Transition"
+    ],
+    "tier": 2,
+    "status": "Current",
+    "why": "Leads AFRL, giving him influence over Air Force science and technology priorities and potential cross-service research and transition engagement.",
+    "hook": "MIT ISN as a source of advanced sensing, materials, power, computing, and human-performance-relevant technologies that can map to Air Force and Space Force needs.",
+    "bio": "Commander of the Air Force Research Laboratory.",
+    "id": "brig-gen-jason-bartolomei"
+  },
+  {
+    "name": "Bruce Danly",
+    "positions": [
+      {
+        "title": "Director of Research",
+        "org": "U.S. Naval Research Laboratory",
+        "parentOrg": "Office of Naval Research"
+      }
+    ],
+    "lane": [
+      "Technical Leadership",
+      "Navy / Marine Corps Research",
+      "Transition"
+    ],
+    "tier": 2,
+    "status": "Current",
+    "why": "Serves as NRL’s senior research leader and is therefore a strong technical counterpart for collaboration and service-lab alignment.",
+    "hook": "MIT ISN as a source of scientifically differentiated capabilities that can complement NRL-led work in advanced sensing, materials, computing, and mission-relevant science.",
+    "bio": "Director of Research at the U.S. Naval Research Laboratory.",
+    "id": "bruce-danly"
+  },
+  {
+    "name": "Bruce Stephenson",
+    "positions": [
+      {
+        "title": "Vice President, Corporate Strategy and Technology",
+        "org": "Northrop Grumman",
+        "parentOrg": "Northrop Grumman"
+      }
+    ],
+    "lane": [
+      "Industry",
+      "Strategy",
+      "Transition"
+    ],
+    "tier": 3,
+    "status": "Current",
+    "why": "Holds a role that explicitly spans strategy, technology, strategic partnerships, and mergers and acquisitions, making him relevant for transition-oriented engagement with a major defense prime.",
+    "hook": "MIT ISN as a source of differentiated technologies and technical partnerships that can support Northrop’s long-horizon strategy and advanced capability development.",
+    "bio": "Vice President, Corporate Strategy and Technology at Northrop Grumman.",
+    "id": "bruce-stephenson"
+  },
+  {
+    "name": "CAPT Randy Cruz",
+    "positions": [
+      {
+        "title": "Commanding Officer",
+        "org": "U.S. Naval Research Laboratory",
+        "parentOrg": "Office of Naval Research"
+      }
+    ],
+    "lane": [
+      "Service Research Leadership",
+      "Navy / Marine Corps Research",
+      "Transition"
+    ],
+    "tier": 2,
+    "status": "Current",
+    "why": "Leads NRL, a major service laboratory and an important node for broadening technical collaboration and transition relationships beyond Army channels.",
+    "hook": "MIT ISN as a university-based source of advanced materials, photonics, sensing, and biomedical research complementary to naval laboratory priorities.",
+    "bio": "Commanding Officer of the U.S. Naval Research Laboratory.",
+    "id": "capt-randy-cruz"
+  },
+  {
+    "name": "Cameron McElfresh",
+    "positions": [
+      {
+        "title": "Program Manager",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril"
+      }
+    ],
+    "lane": [
+      "Industry",
+      "Transition"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Directly manages programs and serves as a key interface for integrating external technologies into Anduril efforts.",
+    "hook": "MIT ISN as a source of advanced sensing, materials, and system-enabling technologies aligned to active Anduril programs.",
+    "bio": "Program Manager at Anduril Industries focused on development and integration of defense technologies.",
+    "id": "cameron-mcelfresh"
+  },
+  {
     "name": "Chris Manning",
+    "photo": "/photos/chris-manning.jpg",
     "positions": [
       {
         "title": "Deputy Assistant Secretary of the Army for Research and Technology (DASA(R&T))",
@@ -104,8 +291,7 @@
       "Army S&T Leadership",
       "Acquisition / Transition"
     ],
-    "highlight": true,
-    "importance": "Highest",
+    "tier": 1,
     "status": "Current",
     "why": "Oversees and coordinates the Army’s full research, applied research, and advanced development portfolio (6.1–6.3), directly shaping priorities, funding alignment, and the transition environment for programs like ISN.",
     "hook": "ISN as a high-performing basic research program aligned to Army S&T priorities with clear pathways into DEVCOM and acquisition programs, supporting stronger 6.1–6.3 continuity and transition outcomes.",
@@ -113,7 +299,50 @@
     "id": "chris-manning"
   },
   {
+    "name": "Christian Brose",
+    "positions": [
+      {
+        "title": "President and Chief Strategy Officer",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril Industries"
+      }
+    ],
+    "lane": [
+      "Industry",
+      "Strategy",
+      "Transition"
+    ],
+    "tier": 3,
+    "status": "Current",
+    "why": "Plays a major role in Anduril’s strategic direction, growth, and defense-market positioning, making him highly relevant for transition-oriented and concept-driven engagement.",
+    "hook": "MIT ISN as a source of technically differentiated capabilities and venture-relevant innovations that can strengthen software-defined and autonomous defense systems.",
+    "bio": "President and Chief Strategy Officer at Anduril Industries.",
+    "id": "christian-brose"
+  },
+  {
+    "name": "Craig Martell",
+    "positions": [
+      {
+        "title": "Vice President and Chief Technology Officer",
+        "org": "Lockheed Martin",
+        "parentOrg": "Lockheed Martin"
+      }
+    ],
+    "lane": [
+      "Industry",
+      "Advanced Technology",
+      "Transition"
+    ],
+    "tier": 3,
+    "status": "Current",
+    "why": "As Lockheed Martin CTO, is positioned to shape enterprise technology strategy and evaluate advanced external research and transition opportunities.",
+    "hook": "MIT ISN as a source of advanced materials, sensing, photonics, computing, and mission-relevant technologies that can align with Lockheed’s long-term technical priorities.",
+    "bio": "Vice President and Chief Technology Officer of Lockheed Martin.",
+    "id": "craig-martell"
+  },
+  {
     "name": "Daniel Driscoll",
+    "photo": "/photos/daniel-driscoll.jpg",
     "positions": [
       {
         "title": "Secretary of the Army (SecArmy)",
@@ -125,8 +354,7 @@
       "Senior Leadership",
       "Policy / Oversight"
     ],
-    "highlight": true,
-    "importance": "Highest",
+    "tier": 2,
     "status": "Current",
     "why": "Provides overall leadership and direction for the Army, with ultimate authority over priorities, funding posture, and institutional support for research and modernization efforts, including programs like ISN.",
     "hook": "ISN as a high-value Army research asset contributing directly to Soldier capability and national security priorities, with demonstrable impact and alignment to Army modernization needs.",
@@ -135,6 +363,7 @@
   },
   {
     "name": "David Stepp",
+    "photo": "/photos/david-stepp.jpg",
     "positions": [
       {
         "title": "Chief Scientist",
@@ -146,8 +375,7 @@
       "Basic Research",
       "Technical Leadership"
     ],
-    "highlight": false,
-    "importance": "High",
+    "tier": 2,
     "status": "Current",
     "why": "Serves as the senior technical authority for DEVCOM ARO, influencing research direction, scientific priorities, and evaluation of basic research programs, including those aligned with ISN.",
     "hook": "ISN as a high-quality basic research program delivering scientifically rigorous, Army-relevant advances aligned to DEVCOM ARO priorities and long-term S&T strategy.",
@@ -169,8 +397,7 @@
       "Technical Leadership",
       "Transition"
     ],
-    "highlight": false,
-    "importance": "High",
+    "tier": 2,
     "status": "Current",
     "why": "Serves as the senior technical authority for ARL, shaping research priorities, scientific direction, and integration of fundamental research into Army-relevant capabilities, directly influencing alignment and collaboration opportunities with ISN.",
     "hook": "ISN as a source of advanced, Army-relevant research aligned to ARL priorities, with strong potential for collaboration and integration into ARL-led programs and transition pathways.",
@@ -179,6 +406,7 @@
   },
   {
     "name": "Elizabeth Warren",
+    "photo": "/photos/elizabeth-warren.jpg",
     "positions": [
       {
         "title": "U.S. Senator (D—MA)",
@@ -190,8 +418,7 @@
       "Congressional Oversight",
       "Defense Policy"
     ],
-    "highlight": false,
-    "importance": "High",
+    "tier": 3,
     "status": "Current",
     "why": "Senior U.S. Senator with influence over federal funding, oversight, and policy affecting defense research, universities, and programs like ISN.",
     "hook": "ISN as a Massachusetts-based research institution contributing to national security, economic development, and technological leadership, with clear public value and accountability.",
@@ -200,6 +427,7 @@
   },
   {
     "name": "Emil Michael",
+    "photo": "/photos/emil-michael.jpg",
     "positions": [
       {
         "title": "Under Secretary of War for Research and Engineering",
@@ -215,8 +443,7 @@
     "lane": [
       "DoD S&T Direction"
     ],
-    "highlight": true,
-    "importance": "Highest",
+    "tier": 1,
     "status": "Current",
     "why": "Sets the Department’s overall research, development, and prototyping direction, with direct oversight of DARPA, MDA, and the broader S&T enterprise — making him one of the most consequential figures shaping the environment in which ISN operates and is evaluated.",
     "hook": "ISN as a high-leverage UARC model that integrates fundamental research with transition pathways and MIT Lincoln Laboratory collaboration, aligned with accelerating prototype-to-capability timelines and leveraging commercial innovation.",
@@ -225,6 +452,7 @@
   },
   {
     "name": "Eric Moore",
+    "photo": "/photos/eric-moore.jpg",
     "positions": [
       {
         "title": "Director (A)",
@@ -235,8 +463,7 @@
     "lane": [
       "Army S&T Leadership"
     ],
-    "highlight": true,
-    "importance": "High",
+    "tier": 1,
     "status": "Acting",
     "why": "Leads the Army’s core intramural research lab.",
     "hook": "ARL–ISN coupling and alignment with Army research priorities.",
@@ -245,6 +472,7 @@
   },
   {
     "name": "Jason Crow",
+    "photo": "/photos/jason-crow.jpg",
     "positions": [
       {
         "title": "U.S. Representative (D—CO)",
@@ -256,8 +484,7 @@
       "Congressional Oversight",
       "Defense Policy"
     ],
-    "highlight": false,
-    "importance": "High",
+    "tier": 3,
     "status": "Current",
     "why": "Member of Congress with involvement in defense and national security issues, influencing policy, authorization, and oversight affecting Army research, funding, and programs like ISN.",
     "hook": "ISN as a driver of innovation, workforce development, and national security impact, with clear contributions to U.S. technological advantage and defense capability.",
@@ -265,7 +492,49 @@
     "id": "jason-crow"
   },
   {
+    "name": "Jason Rathje",
+    "positions": [
+      {
+        "title": "Director",
+        "org": "Office of Strategic Capital (OSC)",
+        "parentOrg": "OUSW(R&E)"
+      }
+    ],
+    "lane": [
+      "Private Capital",
+      "Industrial Base",
+      "Dual-Use Scaling"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Leads the office specifically designed to pull private capital into technologies critical to national security, making him highly relevant to ISN commercialization and scale-up narratives.",
+    "hook": "MIT ISN as a source of dual-use technologies, scalable spinouts, and capital-attractive technical opportunities aligned to national security priorities.",
+    "bio": "Director of the Office of Strategic Capital, which uses financial tools to strengthen the U.S. industrial base and scale critical technologies.",
+    "id": "jason-rathje"
+  },
+  {
+    "name": "Joe Alexander",
+    "positions": [
+      {
+        "title": "Deputy Director",
+        "org": "DEVCOM Army Research Laboratory",
+        "parentOrg": "DEVCOM"
+      }
+    ],
+    "lane": [
+      "Army S&T Leadership",
+      "Research Execution"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Serves as the operational second-in-command at ARL with direct influence over execution, partnerships, and engagement with external institutions.",
+    "hook": "MIT ISN as a high-value university partner aligned to ARL priorities with potential for deeper integration and expanded collaboration.",
+    "bio": "Deputy Director of DEVCOM Army Research Laboratory responsible for operational leadership and execution across the Army’s core research enterprise.",
+    "id": "joe-alexander"
+  },
+  {
     "name": "Joe Jewell",
+    "photo": "/photos/joe-jewell.jpg",
     "positions": [
       {
         "title": "Assistant Secretary of War for Science and Technology (ASW(S&T))",
@@ -276,13 +545,54 @@
     "lane": [
       "DoW S&T Leadership"
     ],
-    "highlight": true,
-    "importance": "Highest",
+    "tier": 1,
     "status": "Current",
     "why": "Leads DoW’s science and technology enterprise and sets priorities across basic research, prototyping, and experimentation — directly shaping the environment in which ISN operates, including UARCs, SBIR/STTR, and Manufacturing Technology programs.",
     "hook": "ISN as a high-performing UARC model linking fundamental research to Army-relevant transition pathways — with particular alignment to hypersonics, advanced materials, and manufacturing innovation.",
     "bio": "Assistant Secretary of War for Science and Technology overseeing the Department’s S&T enterprise, including laboratories, FFRDCs, and UARCs. Former Purdue professor and AFRL researcher specializing in hypersonic aerothermodynamics, with extensive experience in experimental facilities and flight data analysis.",
     "id": "joe-jewell"
+  },
+  {
+    "name": "John Paschkewitz",
+    "positions": [
+      {
+        "title": "Office Director",
+        "org": "DARPA Strategic Technology Office (STO)",
+        "parentOrg": "DARPA"
+      }
+    ],
+    "lane": [
+      "Sensing",
+      "AI / Autonomy",
+      "Integrated Systems"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Leads a DARPA office focused on disruptive capabilities across sensing, command and control, autonomy, and systems warfare, all of which intersect with multiple ISN technical areas.",
+    "hook": "MIT ISN as a foundational science partner whose work in sensing, RF materials, photonics, computation, and advanced materials can feed future STO capability concepts.",
+    "bio": "Director of DARPA’s Strategic Technology Office. STO develops disruptive capabilities across sensing, effects, C3, autonomy, and systems-level operational advantage.",
+    "id": "john-paschkewitz"
+  },
+  {
+    "name": "Juan de Bedout",
+    "positions": [
+      {
+        "title": "Chief Technology Officer",
+        "org": "RTX",
+        "parentOrg": "RTX"
+      }
+    ],
+    "lane": [
+      "Industry",
+      "Advanced Technology",
+      "Transition"
+    ],
+    "tier": 3,
+    "status": "Current",
+    "why": "As RTX CTO, influences enterprise technology strategy, engineering investment, and potential pathways for transition into major defense systems.",
+    "hook": "MIT ISN as a source of advanced materials, sensing, photonics, energy, and computing technologies aligned with RTX’s research, engineering, and product pipelines.",
+    "bio": "Chief Technology Officer of RTX, leading Technology and Global Engineering and the company’s overall technological strategy.",
+    "id": "juan-de-bedout"
   },
   {
     "name": "LTG Edmond “Miles” Brown",
@@ -299,8 +609,7 @@
       "Modernization",
       "Training / Force Development"
     ],
-    "highlight": true,
-    "importance": "Highest",
+    "tier": 1,
     "status": "Acting",
     "why": "Leads the Army’s Transformation and Training Command, which integrates force development, training, and the technology and modernization functions previously under Army Futures Command, making it the central node for translating emerging technologies into requirements, doctrine, and operational capability.",
     "hook": "ISN as a source of foundational research aligned to future force concepts, with emphasis on informing requirements, enabling technology integration, and supporting the transition from discovery to operational capability within the T2COM framework.",
@@ -323,8 +632,7 @@
       "Modernization",
       "Transition"
     ],
-    "highlight": true,
-    "importance": "Highest",
+    "tier": 1,
     "status": "Current",
     "why": "Leads the Army’s command responsible for future force concepts, requirements development, and integration, directly determining which technologies are prioritized and translated into actionable capability needs.",
     "hook": "ISN as a source of foundational research that informs future force concepts and requirements, with emphasis on shaping early-stage capability framing and strengthening the pathway from discovery to requirements-driven development.",
@@ -332,7 +640,50 @@
     "id": "ltg-michael-mccurry"
   },
   {
+    "name": "Matt Shortal",
+    "positions": [
+      {
+        "title": "Principal Deputy Director and Chief Commercial Officer",
+        "org": "Defense Innovation Unit (DIU)",
+        "parentOrg": "Department of War"
+      }
+    ],
+    "lane": [
+      "Commercial Transition",
+      "Nontraditional Industry",
+      "Dual-Use Scaling"
+    ],
+    "tier": 2,
+    "status": "Current",
+    "why": "Sits close to the practical interface between defense needs and commercial adoption, making him useful for transition-minded engagement with nontraditional industry pathways.",
+    "hook": "MIT ISN as a source of dual-use technology and venture-backable opportunities that could fit DIU’s commercial adoption model.",
+    "bio": "Principal Deputy Director and Chief Commercial Officer at DIU.",
+    "id": "matt-shortal"
+  },
+  {
+    "name": "Michael Koeris",
+    "positions": [
+      {
+        "title": "Office Director",
+        "org": "DARPA Biological Technologies Office (BTO)",
+        "parentOrg": "DARPA"
+      }
+    ],
+    "lane": [
+      "Biotechnology",
+      "Soldier Medicine",
+      "Advanced Materials / Bio"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Leads the DARPA office most relevant to ISN’s Soldier medicine, diagnostics, countermeasures, and bio-enabled protection portfolio.",
+    "hook": "MIT ISN as a source of translationally promising work in battlefield care, hemostasis, artificial blood, vaccine-enabling nanotechnologies, and diagnostic/sensing platforms aligned to warfighter health and recovery.",
+    "bio": "Director of DARPA’s Biological Technologies Office. BTO focuses on warfighter health, diagnostics, medical countermeasures, tactical care, recovery, and resilient bio-enabled systems.",
+    "id": "michael-koeris"
+  },
+  {
     "name": "Nate Larm",
+    "photo": "/photos/nate-larm.jpg",
     "positions": [
       {
         "title": "Program Manager (A)",
@@ -344,8 +695,7 @@
       "Direct Sponsor",
       "Basic Research"
     ],
-    "highlight": false,
-    "importance": "High",
+    "tier": 2,
     "status": "Acting",
     "why": "Serves as the direct program management interface for ISN within ARO, responsible for oversight, execution, and sponsor communication, making him critical to day-to-day alignment, reporting, and responsiveness.",
     "hook": "ISN as a responsive, high-quality basic research program aligned to Army priorities, with strong communication and execution supporting effective sponsor engagement.",
@@ -353,7 +703,91 @@
     "id": "nate-larm"
   },
   {
+    "name": "Nestor Trevino",
+    "positions": [
+      {
+        "title": "Director of Low Observables",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril"
+      }
+    ],
+    "lane": [
+      "Industry",
+      "Systems",
+      "Transition"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Leads low observables efforts, directly relevant to materials, coatings, and signature management — a core ISN alignment area.",
+    "hook": "MIT ISN as a source of advanced materials and metamaterials for next-generation low observable and signature control technologies.",
+    "bio": "Director of Low Observables at Anduril Industries overseeing development of signature management technologies.",
+    "id": "nestor-trevino"
+  },
+  {
+    "name": "Owen West",
+    "positions": [
+      {
+        "title": "Director",
+        "org": "Defense Innovation Unit (DIU)",
+        "parentOrg": "Department of War"
+      }
+    ],
+    "lane": [
+      "Commercial Transition",
+      "Nontraditional Industry",
+      "DoW Innovation Ecosystem"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Leads the Department’s principal organization for accelerating adoption of commercial technology at speed and scale.",
+    "hook": "MIT ISN as a source of technically credible, dual-use, commercially legible capabilities and spinout opportunities that can connect to DIU-style transition pathways.",
+    "bio": "Director of the Defense Innovation Unit since January 2026. DIU’s mission is to accelerate DoW adoption of commercially derived technology.",
+    "id": "owen-west"
+  },
+  {
+    "name": "Paige Kurczek",
+    "positions": [
+      {
+        "title": "Materials Engineer",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril"
+      }
+    ],
+    "lane": [
+      "Industry",
+      "Materials"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Works on materials engineering within Anduril, directly aligning with ISN’s core competencies.",
+    "hook": "MIT ISN as a partner for advanced materials development and integration into defense systems.",
+    "bio": "Materials Engineer at Anduril Industries working on applied materials solutions for defense applications.",
+    "id": "paige-kurczek"
+  },
+  {
+    "name": "Rachel Riley",
+    "positions": [
+      {
+        "title": "Chief of Naval Research",
+        "org": "Office of Naval Research (ONR)",
+        "parentOrg": "Department of the Navy"
+      }
+    ],
+    "lane": [
+      "Service S&T Leadership",
+      "Navy / Marine Corps Research",
+      "University Research"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Leads the Navy and Marine Corps S&T enterprise, making her a high-value counterpart for diversifying ISN’s sponsor base beyond the Army.",
+    "hook": "MIT ISN as a source of advanced materials, sensing, energy, computing, and biomedical research relevant to naval and expeditionary missions.",
+    "bio": "Chief of Naval Research. ONR coordinates, executes, and promotes the science and technology programs of the U.S. Navy and Marine Corps.",
+    "id": "rachel-riley"
+  },
+  {
     "name": "Seth Moulton",
+    "photo": "/photos/seth-moulton.jpg",
     "positions": [
       {
         "title": "U.S. Representative (D—MA)",
@@ -365,8 +799,7 @@
       "Congressional Oversight",
       "Defense Policy"
     ],
-    "highlight": false,
-    "importance": "High",
+    "tier": 3,
     "status": "Current",
     "why": "Member of Congress with direct military experience and active engagement in defense issues, influencing authorization, oversight, and support for defense research and innovation efforts.",
     "hook": "ISN as a Massachusetts-based national security research asset supporting warfighter capability and technological leadership, aligned with defense priorities and innovation policy.",
@@ -374,25 +807,45 @@
     "id": "seth-moulton"
   },
   {
-    "name": "Troy Denomy",
+    "name": "Stephen Winchell",
     "positions": [
       {
-        "title": "Capability Portfolio Executive (Ground)",
-        "org": "CPE Ground",
-        "parentOrg": "U.S. Army"
+        "title": "Director",
+        "org": "DARPA",
+        "parentOrg": "OUSW(R&E)"
       }
     ],
     "lane": [
-      "Acquisition / Transition",
-      "Ground Systems",
-      "Capability Integration"
+      "DoW Innovation Ecosystem",
+      "Advanced R&D",
+      "Transition"
     ],
-    "highlight": true,
-    "importance": "Highest",
+    "tier": 1,
     "status": "Current",
-    "why": "Leads the Army’s ground capability portfolio, overseeing development, integration, and delivery of ground systems, making him a key decision-maker in whether and how research transitions into fielded capabilities.",
-    "hook": "ISN as a source of Soldier-relevant technologies and materials that can transition into ground systems, with emphasis on aligning early-stage research to capability gaps and integration pathways within CPE Ground.",
-    "bio": "Capability Portfolio Executive for Ground responsible for overseeing the Army’s ground systems portfolio, including development, integration, and fielding of capabilities. Senior acquisition leader focused on translating technology into operational systems aligned with Army modernization priorities.",
-    "id": "troy-denomy"
+    "why": "Leads DARPA and therefore sits at one of the most consequential nodes for high-risk, high-payoff defense R&D, future program seeding, and strategic technical relevance.",
+    "hook": "MIT ISN as a source of foundational science and dual-use technical capabilities aligned to DARPA’s appetite for disruptive advances in photonics, advanced materials, sensing, energy, computation, and Soldier-relevant bio/medical technologies.",
+    "bio": "Director of DARPA since May 2025. Previously led AI and autonomy work at the Strategic Capabilities Office and served as chief engineer for Project Maven.",
+    "id": "stephen-winchell"
+  },
+  {
+    "name": "Whitney Mason",
+    "positions": [
+      {
+        "title": "Office Director",
+        "org": "DARPA Microsystems Technology Office (MTO)",
+        "parentOrg": "DARPA"
+      }
+    ],
+    "lane": [
+      "Microelectronics",
+      "Photonics",
+      "Quantum"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Leads the DARPA office most naturally aligned with several ISN strengths, especially photonics, quantum, advanced circuits, and microsystems.",
+    "hook": "MIT ISN as a source of breakthrough work in nanophotonics, quantum photonics, 2-D materials, and Soldier-relevant microsystems that fits MTO’s emphasis on foundational breakthroughs with military and economic significance.",
+    "bio": "Director of DARPA’s Microsystems Technology Office. MTO focuses on transformational advances in circuits, microsystems manufacturing, and dual-use-by-design technology.",
+    "id": "whitney-mason"
   }
 ]
