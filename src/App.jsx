@@ -82,11 +82,7 @@ export default function App() {
       .catch((err) => console.error("Failed to load people:", err));
   }, []);
 
-  useEffect(() => {
-    if (people.length > 0 && !selected) {
-      setSelected(people[0]);
-    }
-  }, [people, selected]);
+
 
   const reportFrameHeight = () => {
     const height = containerRef.current?.getBoundingClientRect().height;
@@ -206,8 +202,7 @@ export default function App() {
         >
           
           {!selected ? (
-            <div>Loading…</div>
-          ) : (
+            <div style={{ color: "#555" }}>Select a person to view details.</div>          ) : (
             <>
               {selected?.photo && (
                 <img
