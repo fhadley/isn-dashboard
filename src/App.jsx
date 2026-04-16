@@ -15,8 +15,8 @@ const styles = {
     cursor: "pointer",
   },
   highlight: {
-    background: "#fff3cd",
-    border: "1px solid #f5c518",
+    background: "#e6f2ff",
+    border: "1px solid #66a3ff",
   },
 };
 
@@ -28,6 +28,7 @@ const orgStyle = {
   fontSize: 12,
   color: "#555",
 };
+
 
 function primaryPosition(person) {
   return person.positions && person.positions.length > 0
@@ -181,10 +182,6 @@ export default function App() {
             <div>Loading…</div>
           ) : (
             <>
-              <h2 style={{ marginTop: 0, marginBottom: "16px" }}>
-                {selected.name}
-              </h2>
-
               {selected?.photo && (
                 <img
                   src={selected.photo}
@@ -200,34 +197,45 @@ export default function App() {
                 />
               )}
 
-              <div style={{ marginBottom: "16px" }}>
+              <h2 style={{ marginTop: 0, marginBottom: "16px" }}>
+                {selected.name}
+              </h2>
+
+              <div style={{ marginBottom: "20px" }}>
+                <strong>Title:</strong>
+
                 {(selected?.positions || []).map((pos, i) => (
-                  <div key={i} style={{ marginBottom: "10px" }}>
-                    <div style={{ fontWeight: "600" }}>{pos.title}</div>
-                    <div style={{ color: "#555" }}>{pos.org}</div>
+                  <div key={i} style={{ marginTop: i === 0 ? "6px" : "10px" }}>
+                    <div>{pos.title}</div>
+                    <div style={{ marginTop: "2px" }}>
+                      {pos.org}
+                    </div>
                   </div>
                 ))}
-                  
-                <div style={{ color: "#555" }}>
-                  Status: {selected?.status}
+              </div>
+
+              <div style={{ marginBottom: "20px" }}>
+                <strong>Status:</strong>
+                <div style={{ marginTop: "6px", color: "#555" }}>
+                  {selected?.status}
                 </div>
               </div>
 
-              <div style={{ marginBottom: "16px" }}>
+              <div style={{ marginBottom: "20px" }}>
                 <strong>Why they matter</strong>
                 <div style={{ marginTop: "6px", color: "#444", lineHeight: 1.6 }}>
                   {selected.why}
                 </div>
               </div>
 
-              <div style={{ marginBottom: "16px" }}>
+              <div style={{ marginBottom: "20px" }}>
                 <strong>Suggested hook</strong>
                 <div style={{ marginTop: "6px", color: "#444", lineHeight: 1.6 }}>
                   {selected.hook}
                 </div>
               </div>
 
-              <div style={{ marginBottom: "16px" }}>
+              <div style={{ marginBottom: "20px" }}>
                 <strong>Biographical note</strong>
                 <div style={{ marginTop: "6px", color: "#444", lineHeight: 1.6 }}>
                   {selected.bio}
