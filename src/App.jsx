@@ -130,14 +130,26 @@ export default function App() {
           .toLowerCase()
           .includes(q);
       })
-      .sort((a, b) => {
-        const tierA = a.tier ?? 99;
-        const tierB = b.tier ?? 99;
+        .sort((a, b) => {
+          const tierA = a.tier ?? 99;
+          const tierB = b.tier ?? 99;
 
-        if (tierA !== tierB) return tierA - tierB;
+          // First: sort by tier
+          if (tierA !== tierB) return tierA - tierB;
 
-        return a.name.localeCompare(b.name);
-      });
+          // Then: sort by last name
+          const getLastName = (name) =>
+            name.trim().split(/\s+/).slice(-1)[0].toLowerCase();
+
+          const lastA = getLastName(a.name);
+          const lastB = getLastName(b.name);
+
+          const lastCompare = lastA.localeCompare(lastB);
+          if (lastCompare !== 0) return lastCompare;
+
+          // Final tie-breaker: full name
+          return a.name.localeCompare(b.name);
+        });
 }, [people, query]);
 
 
