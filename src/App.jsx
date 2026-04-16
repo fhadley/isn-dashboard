@@ -18,6 +18,15 @@ const styles = {
     background: "#e6f2ff",
     border: "1px solid #66a3ff",
   },
+    tier1: {
+    borderLeft: "6px solid #2563eb",
+  },
+  tier2: {
+    borderLeft: "6px solid #60a5fa",
+  },
+  tier3: {
+    borderLeft: "6px solid #cbd5f5",
+  },
 };
 
 const positionBlockStyle = (i) => ({
@@ -42,22 +51,18 @@ function Person({ p, onClick }) {
       style={{
         ...styles.card,
         ...(p.highlight ? styles.highlight : {}),
+        ...(p.tier === 1 ? styles.tier1 : {}),
+        ...(p.tier === 2 ? styles.tier2 : {}),
+        ...(p.tier === 3 ? styles.tier3 : {}),
       }}
       onClick={() => onClick(p)}
     >
       <strong>{p.name}</strong>
 
       {(p.positions || []).map((pos, i) => (
-        <div
-          key={i}
-          style={positionBlockStyle(i)}
-        >
+        <div key={i} style={positionBlockStyle(i)}>
           <div>{pos.title}</div>
-          <div
-            style={orgStyle}
-          >
-            {pos.org}
-          </div>
+          <div style={orgStyle}>{pos.org}</div>
         </div>
       ))}
     </div>
@@ -112,22 +117,32 @@ export default function App() {
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase().trim();
-    if (!q) return people;
 
-    return people.filter((p) =>
-      [
-        p.name,
-        ...(p.positions || []).flatMap((pos) => [pos.title, pos.org, pos.parentOrg]),
-        ...(p.lane || []),
-        p.why,
-        p.hook,
-        p.bio,
-      ]
-        .join(" ")
-        .toLowerCase()
-        .includes(q)
-    );
-  }, [people, query]);
+    return people
+      .filter((p) => {
+        if (!q) return true;
+
+        return [
+          p.name,
+          ...(p.positions || []).flatMap((pos) => [pos.title, pos.org, pos.parentOrg]),
+          ...(p.lane || []),
+          p.why,
+          p.hook,
+          p.bio,
+        ]
+          .join(" ")
+          .toLowerCase()
+          .includes(q);
+      })
+      .sort((a, b) => {
+        const tierA = a.tier ?? 99;
+        const tierB = b.tier ?? 99;
+
+        if (tierA !== tierB) return tierA - tierB;
+
+        return a.name.localeCompare(b.name);
+      });
+}, [people, query]);
 
 
   return (
