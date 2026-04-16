@@ -181,6 +181,25 @@ export default function App() {
             <div>Loading…</div>
           ) : (
             <>
+              <h2 style={{ marginTop: 0, marginBottom: "16px" }}>
+                {selected.name}
+              </h2>
+
+              {selected?.photo && (
+                <img
+                  src={selected.photo}
+                  alt={selected.name}
+                  style={{
+                    width: "160px",
+                    height: "200px",
+                    objectFit: "cover",
+                    borderRadius: "12px",
+                    marginBottom: "16px",
+                    border: "1px solid #ddd",
+                  }}
+                />
+              )}
+
               <div style={{ marginBottom: "16px" }}>
                 {(selected?.positions || []).map((pos, i) => (
                   <div key={i} style={{ marginBottom: "10px" }}>
@@ -188,8 +207,9 @@ export default function App() {
                     <div style={{ color: "#555" }}>{pos.org}</div>
                   </div>
                 ))}
+                  
                 <div style={{ color: "#555" }}>
-                  {selected?.status}
+                  Status: {selected?.status}
                 </div>
               </div>
 
