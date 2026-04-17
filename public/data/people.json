@@ -8,6 +8,8 @@
         "parentOrg": "Palantir Technologies"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Industry",
       "AI / Software",
@@ -30,6 +32,8 @@
         "parentOrg": "DEVCOM"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Army S&T Leadership"
     ],
@@ -55,6 +59,8 @@
         "parentOrg": "Futures and Concepts Command (FCC)"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Army S&T Leadership",
       "Soldier Systems",
@@ -77,6 +83,8 @@
         "parentOrg": "Futures and Concepts Command (FCC)"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Army S&T Leadership",
       "Transition"
@@ -98,6 +106,8 @@
         "parentOrg": "U.S. Army"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Acquisition / Transition",
       "Ground Systems",
@@ -140,6 +150,8 @@
         "parentOrg": "Department of War"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Acquisition / Transition",
       "Modernization"
@@ -160,6 +172,8 @@
         "parentOrg": "Anduril Industries"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Industry",
       "Nontraditional Defense",
@@ -181,6 +195,8 @@
         "parentOrg": "Department of the Air Force"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Service S&T Leadership",
       "Air and Space Research",
@@ -202,6 +218,8 @@
         "parentOrg": "Office of Naval Research"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Technical Leadership",
       "Navy / Marine Corps Research",
@@ -223,6 +241,8 @@
         "parentOrg": "Northrop Grumman"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Industry",
       "Strategy",
@@ -244,6 +264,8 @@
         "parentOrg": "Office of Naval Research"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Service Research Leadership",
       "Navy / Marine Corps Research",
@@ -306,6 +328,8 @@
         "parentOrg": "Anduril Industries"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Industry",
       "Strategy",
@@ -327,6 +351,8 @@
         "parentOrg": "Lockheed Martin"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Industry",
       "Advanced Technology",
@@ -349,6 +375,8 @@
         "parentOrg": "Department of War"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Senior Leadership",
       "Policy / Oversight"
@@ -370,6 +398,8 @@
         "parentOrg": "DEVCOM"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "",
     "lane": [
       "Basic Research",
       "Technical Leadership"
@@ -391,6 +421,8 @@
         "parentOrg": "DEVCOM"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Basic Research",
       "Technical Leadership",
@@ -418,6 +450,8 @@
         "parentOrg": "U.S. Government"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "MIT / ISN prior relationship",
     "lane": [
       "DoW S&T Leadership",
       "AI / Digital",
@@ -441,6 +475,8 @@
         "parentOrg": "United States Congress"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Congressional Oversight",
       "Defense Policy"
@@ -467,6 +503,8 @@
         "parentOrg": "Department of War"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "DoD S&T Direction"
     ],
@@ -487,6 +525,8 @@
         "parentOrg": "DEVCOM"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Army S&T Leadership"
     ],
@@ -507,6 +547,8 @@
         "parentOrg": "United States Congress"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Congressional Oversight",
       "Defense Policy"
@@ -527,6 +569,8 @@
         "parentOrg": "OUSW(R&E)"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Private Capital",
       "Industrial Base",
@@ -548,6 +592,8 @@
         "parentOrg": "DEVCOM"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Army S&T Leadership",
       "Research Execution"
@@ -588,6 +634,8 @@
         "parentOrg": "DARPA"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Sensing",
       "AI / Autonomy",
@@ -609,6 +657,8 @@
         "parentOrg": "RTX"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Industry",
       "Advanced Technology",
@@ -631,6 +681,8 @@
         "parentOrg": "U.S. Army"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Requirements / Concepts",
       "Modernization",
@@ -653,6 +705,8 @@
         "parentOrg": "Transformation and Training Command (T2COM)"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Army S&T Leadership",
       "Requirements/Concepts",
@@ -675,6 +729,8 @@
         "parentOrg": "Department of War"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Commercial Transition",
       "Nontraditional Industry",
@@ -696,6 +752,8 @@
         "parentOrg": "DARPA"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Biotechnology",
       "Soldier Medicine",
@@ -759,6 +817,8 @@
         "parentOrg": "Department of War"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Commercial Transition",
       "Nontraditional Industry",
@@ -800,6 +860,8 @@
         "parentOrg": "Department of the Navy"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Service S&T Leadership",
       "Navy / Marine Corps Research",
@@ -822,6 +884,8 @@
         "parentOrg": "United States Congress"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Congressional Oversight",
       "Defense Policy"
@@ -842,6 +906,8 @@
         "parentOrg": "OUSW(R&E)"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "DoW Innovation Ecosystem",
       "Advanced R&D",
@@ -863,6 +929,8 @@
         "parentOrg": "DARPA"
       }
     ],
+    "lastContact": "",
+    "introducedBy": "TBD",
     "lane": [
       "Microelectronics",
       "Photonics",
