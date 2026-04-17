@@ -404,6 +404,34 @@
     "id": "dimitra-stratis-cullum"
   },
   {
+    "name": "Doug Matty",
+    "photo": "/photos/doug-matty.jpg",
+    "positions": [
+      {
+        "title": "Chief Technologist",
+        "org": "U.S. Department of War",
+        "parentOrg": "U.S. Government"
+      },
+      {
+        "title": "Former Chief Digital and Artificial Intelligence Officer",
+        "org": "U.S. Department of War",
+        "parentOrg": "U.S. Government"
+      }
+    ],
+    "lane": [
+      "DoW S&T Leadership",
+      "AI / Digital",
+      "Strategic Initiatives",
+      "Transition"
+    ],
+    "tier": 1,
+    "status": "Current",
+    "why": "Serves as the Department’s Chief Technologist, shaping technical direction at the highest level across AI, data, and advanced capabilities, including leadership focus on the Golden Dome initiative. Brings deep experience from Army Futures Command and DoW AI leadership roles, directly influencing how emerging technologies are prioritized, funded, and transitioned.",
+    "hook": "Re-engage via MIT connection and prior ISN exposure to position ISN as a source of technically rigorous, mission-aligned research supporting Golden Dome and broader DoW AI-enabled capability development.",
+    "bio": "Chief Technologist of the U.S. Department of War and former Chief Digital and Artificial Intelligence Officer. Previously led AI capability development for Army Futures Command and held senior roles across the Army and Joint Staff. MIT PhD in Engineering Systems with prior engagement with ISN during his time at MIT.",
+    "id": "doug-matty"
+  },
+  {
     "name": "Elizabeth Warren",
     "photo": "/photos/elizabeth-warren.jpg",
     "positions": [
