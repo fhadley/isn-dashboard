@@ -5,6 +5,8 @@ from pathlib import Path
 VAULT_PEOPLE_DIR = Path("/Users/fewh/Documents/MIT ISN Obsidian Vault/People")
 OUTPUT_JSON = Path("/Users/fewh/isn-dashboard/public/data/people.json")
 
+FIELD_RE = re.compile(r"^[A-Za-z][A-Za-z0-9]*:")
+
 
 def person_id_from_name(name: str) -> str:
     s = name.lower().strip()
@@ -42,8 +44,7 @@ def parse_dashboard_block(lines: list[str]) -> dict:
     i = 0
 
     while i < len(lines):
-        line = lines[i].rstrip()
-        stripped = line.strip()
+        stripped = lines[i].strip()
 
         if stripped.startswith("name:"):
             data["name"] = stripped[len("name:") :].strip()
@@ -58,7 +59,7 @@ def parse_dashboard_block(lines: list[str]) -> dict:
             while i < len(lines):
                 s = lines[i].strip()
 
-                if re.match(r"^[A-Za-z].*:$", s):
+                if FIELD_RE.match(s):
                     break
 
                 if s.startswith("- title:"):
@@ -100,7 +101,7 @@ def parse_dashboard_block(lines: list[str]) -> dict:
             while i < len(lines):
                 s = lines[i].strip()
 
-                if re.match(r"^[A-Za-z].*:", s):
+                if FIELD_RE.match(s):
                     break
 
                 if s.startswith("- "):
