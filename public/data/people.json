@@ -3,7 +3,9 @@
     "name": "Akash Jain",
     "positions": [
       {
-        "title": "President and CTO"
+        "title": "President and CTO",
+        "org": "Palantir USG",
+        "parentOrg": "Palantir Technologies"
       }
     ],
     "engagement": "Build",
@@ -26,7 +28,9 @@
     "photo": "/photos/anne-marie-petrock.jpg",
     "positions": [
       {
-        "title": "Director (A)"
+        "title": "Director (A)",
+        "org": "DEVCOM ARO",
+        "parentOrg": "DEVCOM"
       }
     ],
     "engagement": "Build",
@@ -47,7 +51,14 @@
     "photo": "/photos/bg-george-chris-hackler.jpg",
     "positions": [
       {
-        "title": "Senior Commander"
+        "title": "Senior Commander",
+        "org": "Natick Soldier Systems Center",
+        "parentOrg": "DEVCOM"
+      },
+      {
+        "title": "Deputy Commanding General",
+        "org": "DEVCOM",
+        "parentOrg": "Futures and Concepts Command (FCC)"
       }
     ],
     "engagement": "Build",
@@ -70,7 +81,9 @@
     "photo": "/photos/bg-robert-born.jpg",
     "positions": [
       {
-        "title": "Commanding General"
+        "title": "Commanding General",
+        "org": "DEVCOM",
+        "parentOrg": "Futures and Concepts Command (FCC)"
       }
     ],
     "engagement": "Build",
@@ -92,7 +105,9 @@
     "photo": "/photos/bg-troy-denomy.jpg",
     "positions": [
       {
-        "title": "Capability Portfolio Executive (Ground)"
+        "title": "Capability Portfolio Executive (Ground)",
+        "org": "CPE Ground",
+        "parentOrg": "U.S. Army"
       }
     ],
     "engagement": "Build",
@@ -114,7 +129,9 @@
     "name": "Brandon Teoh",
     "positions": [
       {
-        "title": "Low Observables Engineer"
+        "title": "Low Observables Engineer",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril"
       }
     ],
     "engagement": "Active",
@@ -136,7 +153,9 @@
     "photo": "/photos/brent-ingraham.jpg",
     "positions": [
       {
-        "title": "Assistant Secretary of the Army (Acquisition, Logistics and Technology)"
+        "title": "Assistant Secretary of the Army (Acquisition, Logistics and Technology)",
+        "org": "Department of the Army",
+        "parentOrg": "Department of War"
       }
     ],
     "engagement": "Build",
@@ -157,7 +176,9 @@
     "name": "Brian Schimpf",
     "positions": [
       {
-        "title": "Co-Founder and Chief Executive Officer"
+        "title": "Co-Founder and Chief Executive Officer",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril Industries"
       }
     ],
     "engagement": "Build",
@@ -179,7 +200,9 @@
     "name": "Brig Gen Jason Bartolomei",
     "positions": [
       {
-        "title": "Commander"
+        "title": "Commander",
+        "org": "Air Force Research Laboratory (AFRL)",
+        "parentOrg": "Department of the Air Force"
       }
     ],
     "engagement": "Build",
@@ -201,7 +224,9 @@
     "name": "Bruce Danly",
     "positions": [
       {
-        "title": "Director of Research"
+        "title": "Director of Research",
+        "org": "U.S. Naval Research Laboratory",
+        "parentOrg": "Office of Naval Research"
       }
     ],
     "engagement": "Build",
@@ -223,7 +248,9 @@
     "name": "Bruce Stephenson",
     "positions": [
       {
-        "title": "Vice President, Corporate Strategy and Technology"
+        "title": "Vice President, Corporate Strategy and Technology",
+        "org": "Northrop Grumman",
+        "parentOrg": "Northrop Grumman"
       }
     ],
     "engagement": "Build",
@@ -245,7 +272,9 @@
     "name": "CAPT Randy Cruz",
     "positions": [
       {
-        "title": "Commanding Officer"
+        "title": "Commanding Officer",
+        "org": "U.S. Naval Research Laboratory",
+        "parentOrg": "Office of Naval Research"
       }
     ],
     "engagement": "Build",
@@ -267,7 +296,9 @@
     "name": "Cameron McElfresh",
     "positions": [
       {
-        "title": "Program Manager"
+        "title": "Program Manager",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril"
       }
     ],
     "engagement": "Active",
@@ -289,7 +320,9 @@
     "photo": "/photos/chris-manning.jpg",
     "positions": [
       {
-        "title": "Deputy Assistant Secretary of the Army for Research and Technology (DASA(R&T))"
+        "title": "Deputy Assistant Secretary of the Army for Research and Technology (DASA(R&T))",
+        "org": "Office of the Assistant Secretary of the Army for Acquisition, Logistics and Technology (OASA(ALT))",
+        "parentOrg": "Army"
       }
     ],
     "engagement": "Build",
@@ -310,7 +343,9 @@
     "name": "Christian Brose",
     "positions": [
       {
-        "title": "President and Chief Strategy Officer"
+        "title": "President and Chief Strategy Officer",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril Industries"
       }
     ],
     "engagement": "Build",
@@ -332,7 +367,9 @@
     "name": "Craig Martell",
     "positions": [
       {
-        "title": "Vice President and Chief Technology Officer"
+        "title": "Vice President and Chief Technology Officer",
+        "org": "Lockheed Martin",
+        "parentOrg": "Lockheed Martin"
       }
     ],
     "engagement": "Build",
@@ -355,7 +392,9 @@
     "photo": "/photos/daniel-driscoll.jpg",
     "positions": [
       {
-        "title": "Secretary of the Army (SecArmy)"
+        "title": "Secretary of the Army (SecArmy)",
+        "org": "U.S. Army",
+        "parentOrg": "Department of War"
       }
     ],
     "engagement": "Build",
@@ -377,7 +416,9 @@
     "photo": "/photos/david-stepp.jpg",
     "positions": [
       {
-        "title": "Chief Scientist"
+        "title": "Chief Scientist",
+        "org": "DEVCOM ARO",
+        "parentOrg": "DEVCOM"
       }
     ],
     "engagement": "Build",
@@ -399,7 +440,9 @@
     "photo": "/photos/dimitra-stratis-cullum.jpg",
     "positions": [
       {
-        "title": "Chief Scientist"
+        "title": "Chief Scientist",
+        "org": "DEVCOM ARL",
+        "parentOrg": "DEVCOM"
       }
     ],
     "engagement": "Build",
@@ -422,7 +465,14 @@
     "photo": "/photos/doug-matty.jpg",
     "positions": [
       {
-        "title": "Chief Technologist"
+        "title": "Chief Technologist",
+        "org": "U.S. Department of War",
+        "parentOrg": "U.S. Government"
+      },
+      {
+        "title": "Former Chief Digital and Artificial Intelligence Officer",
+        "org": "U.S. Department of War",
+        "parentOrg": "U.S. Government"
       }
     ],
     "engagement": "Build",
@@ -446,7 +496,9 @@
     "photo": "/photos/elizabeth-warren.jpg",
     "positions": [
       {
-        "title": "U.S. Senator (D—MA)"
+        "title": "U.S. Senator (D—MA)",
+        "org": "U.S. Senate",
+        "parentOrg": "United States Congress"
       }
     ],
     "engagement": "Build",
@@ -468,7 +520,14 @@
     "photo": "/photos/emil-michael.jpg",
     "positions": [
       {
-        "title": "Under Secretary of War for Research and Engineering"
+        "title": "Under Secretary of War for Research and Engineering",
+        "org": "OUSD(R&E)",
+        "parentOrg": "Department of War"
+      },
+      {
+        "title": "Chief Technology Officer",
+        "org": "Department of War",
+        "parentOrg": "Department of War"
       }
     ],
     "engagement": "Build",
@@ -489,7 +548,9 @@
     "photo": "/photos/eric-moore.jpg",
     "positions": [
       {
-        "title": "Director (A)"
+        "title": "Director (A)",
+        "org": "DEVCOM ARL",
+        "parentOrg": "DEVCOM"
       }
     ],
     "engagement": "Build",
@@ -510,7 +571,9 @@
     "photo": "/photos/jason-crow.jpg",
     "positions": [
       {
-        "title": "U.S. Representative (D—CO)"
+        "title": "U.S. Representative (D—CO)",
+        "org": "U.S. House of Representatives",
+        "parentOrg": "United States Congress"
       }
     ],
     "engagement": "Build",
@@ -531,7 +594,9 @@
     "name": "Jason Rathje",
     "positions": [
       {
-        "title": "Director"
+        "title": "Director",
+        "org": "Office of Strategic Capital (OSC)",
+        "parentOrg": "OUSW(R&E)"
       }
     ],
     "engagement": "Build",
@@ -553,7 +618,9 @@
     "name": "Joe Alexander",
     "positions": [
       {
-        "title": "Deputy Director"
+        "title": "Deputy Director",
+        "org": "DEVCOM Army Research Laboratory",
+        "parentOrg": "DEVCOM"
       }
     ],
     "engagement": "Build",
@@ -575,7 +642,9 @@
     "photo": "/photos/joe-jewell.jpg",
     "positions": [
       {
-        "title": "Assistant Secretary of War for Science and Technology (ASW(S&T))"
+        "title": "Assistant Secretary of War for Science and Technology (ASW(S&T))",
+        "org": "Office of the Under Secretary of War for Research and Engineering (OUSW(R&E))",
+        "parentOrg": "Department of War (DoW)"
       }
     ],
     "engagement": "Build",
@@ -595,7 +664,9 @@
     "name": "John Paschkewitz",
     "positions": [
       {
-        "title": "Office Director"
+        "title": "Office Director",
+        "org": "DARPA Strategic Technology Office (STO)",
+        "parentOrg": "DARPA"
       }
     ],
     "engagement": "Build",
@@ -617,7 +688,9 @@
     "name": "Juan de Bedout",
     "positions": [
       {
-        "title": "Chief Technology Officer"
+        "title": "Chief Technology Officer",
+        "org": "RTX",
+        "parentOrg": "RTX"
       }
     ],
     "engagement": "Build",
@@ -640,7 +713,9 @@
     "photo": "/photos/ltg-edmond-miles-brown.jpg",
     "positions": [
       {
-        "title": "Acting Commanding General"
+        "title": "Acting Commanding General",
+        "org": "Transformation and Training Command (T2COM)",
+        "parentOrg": "U.S. Army"
       }
     ],
     "engagement": "Build",
@@ -663,7 +738,9 @@
     "photo": "/photos/ltg-michael-mccurry.jpg",
     "positions": [
       {
-        "title": "Commanding General"
+        "title": "Commanding General",
+        "org": "Futures and Concepts Command (FCC)",
+        "parentOrg": "Transformation and Training Command (T2COM)"
       }
     ],
     "engagement": "Build",
@@ -686,7 +763,9 @@
     "name": "Matt Shortal",
     "positions": [
       {
-        "title": "Principal Deputy Director and Chief Commercial Officer"
+        "title": "Principal Deputy Director and Chief Commercial Officer",
+        "org": "Defense Innovation Unit (DIU)",
+        "parentOrg": "Department of War"
       }
     ],
     "engagement": "Build",
@@ -708,7 +787,9 @@
     "name": "Michael Koeris",
     "positions": [
       {
-        "title": "Office Director"
+        "title": "Office Director",
+        "org": "DARPA Biological Technologies Office (BTO)",
+        "parentOrg": "DARPA"
       }
     ],
     "engagement": "Build",
@@ -731,7 +812,9 @@
     "photo": "/photos/nate-larm.jpg",
     "positions": [
       {
-        "title": "Program Manager (A)"
+        "title": "Program Manager (A)",
+        "org": "Army Research Office (ARO)",
+        "parentOrg": "DEVCOM"
       }
     ],
     "engagement": "Active",
@@ -752,7 +835,9 @@
     "name": "Nestor Trevino",
     "positions": [
       {
-        "title": "Director of Low Observables"
+        "title": "Director of Low Observables",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril"
       }
     ],
     "engagement": "Active",
@@ -774,7 +859,9 @@
     "name": "Owen West",
     "positions": [
       {
-        "title": "Director"
+        "title": "Director",
+        "org": "Defense Innovation Unit (DIU)",
+        "parentOrg": "Department of War"
       }
     ],
     "engagement": "Build",
@@ -796,7 +883,9 @@
     "name": "Paige Kurczek",
     "positions": [
       {
-        "title": "Materials Engineer"
+        "title": "Materials Engineer",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril"
       }
     ],
     "engagement": "Active",
@@ -817,7 +906,9 @@
     "name": "Rachel Riley",
     "positions": [
       {
-        "title": "Chief of Naval Research"
+        "title": "Chief of Naval Research",
+        "org": "Office of Naval Research (ONR)",
+        "parentOrg": "Department of the Navy"
       }
     ],
     "engagement": "Build",
@@ -840,7 +931,9 @@
     "photo": "/photos/seth-moulton.jpg",
     "positions": [
       {
-        "title": "U.S. Representative (D—MA)"
+        "title": "U.S. Representative (D—MA)",
+        "org": "U.S. House of Representatives",
+        "parentOrg": "United States Congress"
       }
     ],
     "engagement": "Build",
@@ -861,7 +954,9 @@
     "name": "Stephen Winchell",
     "positions": [
       {
-        "title": "Director"
+        "title": "Director",
+        "org": "DARPA",
+        "parentOrg": "OUSW(R&E)"
       }
     ],
     "engagement": "Build",
@@ -883,7 +978,9 @@
     "name": "Whitney Mason",
     "positions": [
       {
-        "title": "Office Director"
+        "title": "Office Director",
+        "org": "DARPA Microsystems Technology Office (MTO)",
+        "parentOrg": "DARPA"
       }
     ],
     "engagement": "Build",
