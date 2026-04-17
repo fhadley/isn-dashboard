@@ -78,6 +78,21 @@ def parse_dashboard_block(lines: list[str]) -> dict:
             data["positions"] = positions
             continue
 
+        if stripped.startswith("engagement:"):
+            data["engagement"] = stripped[len("engagement:") :].strip()
+            i += 1
+            continue
+
+        if stripped.startswith("lastContact:"):
+            data["lastContact"] = stripped[len("lastContact:") :].strip()
+            i += 1
+            continue
+
+        if stripped.startswith("introducedBy:"):
+            data["introducedBy"] = stripped[len("introducedBy:") :].strip()
+            i += 1
+            continue
+
         if stripped.startswith("lane:"):
             lanes = []
             i += 1
@@ -109,6 +124,17 @@ def parse_dashboard_block(lines: list[str]) -> dict:
 
         if stripped.startswith("status:"):
             data["status"] = stripped[len("status:") :].strip()
+            i += 1
+            continue
+
+        if stripped.startswith("photo:"):
+            data["photo"] = stripped[len("photo:") :].strip()
+            i += 1
+            continue
+
+        if stripped.startswith("tier:"):
+            raw_tier = stripped[len("tier:") :].strip()
+            data["tier"] = int(raw_tier) if raw_tier.isdigit() else raw_tier
             i += 1
             continue
 

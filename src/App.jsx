@@ -255,6 +255,27 @@ export default function App() {
                 </div>
               </div>
 
+              <div style={{ marginBottom: "16px" }}>
+                <strong>Engagement</strong>
+                <div style={{ marginTop: "6px", color: "#444" }}>
+                  {selected?.engagement || "—"}
+                </div>
+              </div>
+
+              <div style={{ marginBottom: "16px" }}>
+                <strong>Last Contact</strong>
+                <div style={{ marginTop: "6px", color: "#444" }}>
+                  {selected?.lastContact || "—"}
+                </div>
+              </div>
+
+              <div style={{ marginBottom: "16px" }}>
+                <strong>Introduced By</strong>
+                <div style={{ marginTop: "6px", color: "#444" }}>
+                  {selected?.introducedBy || "—"}
+                </div>
+              </div>
+
               <div style={{ marginBottom: "20px" }}>
                 <strong>Why they matter</strong>
                 <div style={{ marginTop: "6px", color: "#444", lineHeight: 1.6 }}>
