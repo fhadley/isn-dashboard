@@ -190,7 +190,7 @@
     ],
     "positions": [
       {
-        "title": "\\\"Deputy Assistant Secretary of the Army for Research and Technology (DASA(R&T))\\\"",
+        "title": "Deputy Assistant Secretary of the Army for Research and Technology (DASA(R&T))",
         "org": "Office of the Assistant Secretary of the Army for Acquisition, Logistics and Technology (OASA(ALT))",
         "parentOrg": "Army"
       }
@@ -450,6 +450,32 @@
       }
     ],
     "id": "joe-jewell"
+  },
+  {
+    "name": "LTG Edmond “Miles” Brown",
+    "photo": "/photos/ltg-edmond-miles-brown.jpg",
+    "tier": 1,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Acting",
+    "why": "Leads the Army’s Transformation and Training Command, which integrates force development, training, and the technology and modernization functions previously under Army Futures Command, making it the central node for translating emerging technologies into requirements, doctrine, and operational capability.",
+    "hook": "ISN as a source of foundational research aligned to future force concepts, with emphasis on informing requirements, enabling technology integration, and supporting the transition from discovery to operational capability within the T2COM framework.",
+    "bio": "Acting Commanding General of Transformation and Training Command, which combines the Army’s traditional training and doctrine functions with the technology and modernization responsibilities formerly under Army Futures Command. Senior Army leader with extensive operational and command experience, focused on aligning emerging technologies with force development, requirements, and readiness.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Acting Commanding General",
+        "org": "Transformation and Training Command (T2COM)",
+        "parentOrg": "U.S. Army"
+      }
+    ],
+    "id": "ltg-edmond-miles-brown"
   },
   {
     "name": "LTG Michael McCurry",
