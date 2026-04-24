@@ -1,5 +1,34 @@
 [
   {
+    "name": "Akash Jain",
+    "tier": 3,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Sits at a key nexus of defense software, AI deployment, government mission support, and operational data integration.",
+    "hook": "MIT ISN as a source of sensing, edge-compute, photonic/electronic hardware, and data-rich technical capabilities that can become more powerful when paired with AI-enabled software platforms.",
+    "bio": "President and CTO of Palantir USG.",
+    "priority": "High",
+    "lane": [
+      "Industry",
+      "AI / Software",
+      "Transition"
+    ],
+    "positions": [
+      {
+        "title": "President and CTO",
+        "org": "Palantir USG",
+        "parentOrg": "Palantir Technologies"
+      }
+    ],
+    "id": "akash-jain"
+  },
+  {
     "name": "Anne Marie Petrock",
     "photo": "/photos/anne-marie-petrock.jpg",
     "tier": 1,
@@ -90,6 +119,57 @@
     "id": "bg-robert-born"
   },
   {
+    "name": "BG Troy Denomy",
+    "photo": "/photos/bg-troy-denomy.jpg",
+    "tier": 1,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Leads the Army’s ground capability portfolio, overseeing development, integration, and delivery of ground systems, making him a key decision-maker in whether and how research transitions into fielded capabilities.",
+    "hook": "ISN as a source of Soldier-relevant technologies and materials that can transition into ground systems, with emphasis on aligning early-stage research to capability gaps and integration pathways within CPE Ground.",
+    "bio": "Capability Portfolio Executive for Ground responsible for overseeing the Army’s ground systems portfolio, including development, integration, and fielding of capabilities. Senior acquisition leader focused on translating technology into operational systems aligned with Army modernization priorities.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Capability Portfolio Executive (Ground)",
+        "org": "CPE Ground",
+        "parentOrg": "U.S. Army"
+      }
+    ],
+    "id": "bg-troy-denomy"
+  },
+  {
+    "name": "Brandon Teoh",
+    "tier": 1,
+    "engagement": "Active",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "2026-04-06",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "Kevin Brower",
+    "status": "Current",
+    "why": "Works directly on low observable technologies, making him a key technical interface for materials-focused collaboration.",
+    "hook": "MIT ISN as a source of advanced materials, nanostructures, and coatings relevant to low observable systems.",
+    "bio": "Low Observables Engineer at Anduril Industries focused on signature reduction technologies.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Low Observables Engineer",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril"
+      }
+    ],
+    "id": "brandon-teoh"
+  },
+  {
     "name": "Brent Ingraham",
     "photo": "/photos/brent-ingraham.jpg",
     "tier": 2,
@@ -117,6 +197,114 @@
       }
     ],
     "id": "brent-ingraham"
+  },
+  {
+    "name": "Brian Schimpf",
+    "tier": 3,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Leads one of the most important nontraditional defense firms in autonomy, sensing, software-defined defense systems, and rapid operational fielding.",
+    "hook": "MIT ISN as a source of advanced sensing, materials, power, computation, and edge-enabling technologies that can feed nontraditional transition pathways and dual-use productization.",
+    "bio": "Co-Founder and Chief Executive Officer of Anduril Industries.",
+    "priority": "High",
+    "lane": [
+      "Industry",
+      "Nontraditional Defense",
+      "Transition"
+    ],
+    "positions": [
+      {
+        "title": "Co-Founder and Chief Executive Officer",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril Industries"
+      }
+    ],
+    "id": "brian-schimpf"
+  },
+  {
+    "name": "Brig Gen Jason Bartolomei",
+    "tier": 2,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Leads AFRL, giving him influence over Air Force science and technology priorities and potential cross-service research and transition engagement.",
+    "hook": "MIT ISN as a source of advanced sensing, materials, power, computing, and human-performance-relevant technologies that can map to Air Force and Space Force needs.",
+    "bio": "Commander of the Air Force Research Laboratory.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Commander",
+        "org": "Air Force Research Laboratory (AFRL)",
+        "parentOrg": "Department of the Air Force"
+      }
+    ],
+    "id": "brig-gen-jason-bartolomei"
+  },
+  {
+    "name": "Bruce Danly",
+    "tier": 2,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Serves as NRL’s senior research leader and is therefore a strong technical counterpart for collaboration and service-lab alignment.",
+    "hook": "MIT ISN as a source of scientifically differentiated capabilities that can complement NRL-led work in advanced sensing, materials, computing, and mission-relevant science.",
+    "bio": "Director of Research at the U.S. Naval Research Laboratory.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Director of Research",
+        "org": "U.S. Naval Research Laboratory",
+        "parentOrg": "Office of Naval Research"
+      }
+    ],
+    "id": "bruce-danly"
+  },
+  {
+    "name": "Bruce Stephenson",
+    "tier": 3,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Holds a role that explicitly spans strategy, technology, strategic partnerships, and mergers and acquisitions, making him relevant for transition-oriented engagement with a major defense prime.",
+    "hook": "MIT ISN as a source of differentiated technologies and technical partnerships that can support Northrop’s long-horizon strategy and advanced capability development.",
+    "bio": "Vice President, Corporate Strategy and Technology at Northrop Grumman.",
+    "priority": "High",
+    "lane": [
+      "Industry",
+      "Strategy",
+      "Transition"
+    ],
+    "positions": [
+      {
+        "title": "Vice President, Corporate Strategy and Technology",
+        "org": "Northrop Grumman",
+        "parentOrg": "Northrop Grumman"
+      }
+    ],
+    "id": "bruce-stephenson"
   },
   {
     "name": "CAPT Randy Cruz",
@@ -196,6 +384,56 @@
       }
     ],
     "id": "chris-manning"
+  },
+  {
+    "name": "Christian Brose",
+    "tier": 3,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Plays a major role in Anduril’s strategic direction, growth, and defense-market positioning, making him highly relevant for transition-oriented and concept-driven engagement.",
+    "hook": "MIT ISN as a source of technically differentiated capabilities and venture-relevant innovations that can strengthen software-defined and autonomous defense systems.",
+    "bio": "President and Chief Strategy Officer at Anduril Industries.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "President and Chief Strategy Officer",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril Industries"
+      }
+    ],
+    "id": "christian-brose"
+  },
+  {
+    "name": "Craig Martell",
+    "tier": 3,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "As Lockheed Martin CTO, is positioned to shape enterprise technology strategy and evaluate advanced external research and transition opportunities.",
+    "hook": "MIT ISN as a source of advanced materials, sensing, photonics, computing, and mission-relevant technologies that can align with Lockheed’s long-term technical priorities.",
+    "bio": "Vice President and Chief Technology Officer of Lockheed Martin.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Vice President and Chief Technology Officer",
+        "org": "Lockheed Martin",
+        "parentOrg": "Lockheed Martin"
+      }
+    ],
+    "id": "craig-martell"
   },
   {
     "name": "Daniel Driscoll",
@@ -452,6 +690,60 @@
     "id": "joe-jewell"
   },
   {
+    "name": "John Paschkewitz",
+    "tier": 1,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Leads a DARPA office focused on disruptive capabilities across sensing, command and control, autonomy, and systems warfare, all of which intersect with multiple ISN technical areas.",
+    "hook": "MIT ISN as a foundational science partner whose work in sensing, RF materials, photonics, computation, and advanced materials can feed future STO capability concepts.",
+    "bio": "Director of DARPA’s Strategic Technology Office. STO develops disruptive capabilities across sensing, effects, C3, autonomy, and systems-level operational advantage.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Office Director",
+        "org": "DARPA Strategic Technology Office (STO)",
+        "parentOrg": "DARPA"
+      }
+    ],
+    "id": "john-paschkewitz"
+  },
+  {
+    "name": "Juan de Bedout",
+    "tier": 3,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "As RTX CTO, influences enterprise technology strategy, engineering investment, and potential pathways for transition into major defense systems.",
+    "hook": "MIT ISN as a source of advanced materials, sensing, photonics, energy, and computing technologies aligned with RTX’s research, engineering, and product pipelines.",
+    "bio": "Chief Technology Officer of RTX, leading Technology and Global Engineering and the company’s overall technological strategy.",
+    "priority": "High",
+    "lane": [
+      "Industry",
+      "Advanced Technology",
+      "Transition"
+    ],
+    "positions": [
+      {
+        "title": "Chief Technology Officer",
+        "org": "RTX",
+        "parentOrg": "RTX"
+      }
+    ],
+    "id": "juan-de-bedout"
+  },
+  {
     "name": "LTG Edmond “Miles” Brown",
     "photo": "/photos/ltg-edmond-miles-brown.jpg",
     "tier": 1,
@@ -509,6 +801,56 @@
     "id": "ltg-michael-mccurry"
   },
   {
+    "name": "Matt Shortal",
+    "tier": 2,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Sits close to the practical interface between defense needs and commercial adoption, making him useful for transition-minded engagement with nontraditional industry pathways.",
+    "hook": "MIT ISN as a source of dual-use technology and venture-backable opportunities that could fit DIU’s commercial adoption model.",
+    "bio": "Principal Deputy Director and Chief Commercial Officer at DIU.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Principal Deputy Director and Chief Commercial Officer",
+        "org": "Defense Innovation Unit (DIU)",
+        "parentOrg": "Department of War"
+      }
+    ],
+    "id": "matt-shortal"
+  },
+  {
+    "name": "Michael Koeris",
+    "tier": 1,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Leads the DARPA office most relevant to ISN’s Soldier medicine, diagnostics, countermeasures, and bio-enabled protection portfolio.",
+    "hook": "MIT ISN as a source of translationally promising work in battlefield care, hemostasis, artificial blood, vaccine-enabling nanotechnologies, and diagnostic/sensing platforms aligned to warfighter health and recovery.",
+    "bio": "Director of DARPA’s Biological Technologies Office. BTO focuses on warfighter health, diagnostics, medical countermeasures, tactical care, recovery, and resilient bio-enabled systems.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Office Director",
+        "org": "DARPA Biological Technologies Office (BTO)",
+        "parentOrg": "DARPA"
+      }
+    ],
+    "id": "michael-koeris"
+  },
+  {
     "name": "Nate Larm",
     "photo": "/photos/nate-larm.jpg",
     "tier": 2,
@@ -538,6 +880,56 @@
     "id": "nate-larm"
   },
   {
+    "name": "Nestor Trevino",
+    "tier": 1,
+    "engagement": "Active",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "2026-04-06",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "Kevin Brower",
+    "status": "Current",
+    "why": "Leads low observables efforts, directly relevant to materials, coatings, and signature management — a core ISN alignment area.",
+    "hook": "MIT ISN as a source of advanced materials and metamaterials for next-generation low observable and signature control technologies.",
+    "bio": "Director of Low Observables at Anduril Industries overseeing development of signature management technologies.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Director of Low Observables",
+        "org": "Anduril Industries",
+        "parentOrg": "Anduril"
+      }
+    ],
+    "id": "nestor-trevino"
+  },
+  {
+    "name": "Owen West",
+    "tier": 1,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Leads the Department’s principal organization for accelerating adoption of commercial technology at speed and scale.",
+    "hook": "MIT ISN as a source of technically credible, dual-use, commercially legible capabilities and spinout opportunities that can connect to DIU-style transition pathways.",
+    "bio": "Director of the Defense Innovation Unit since January 2026. DIU’s mission is to accelerate DoW adoption of commercially derived technology.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Director",
+        "org": "Defense Innovation Unit (DIU)",
+        "parentOrg": "Department of War"
+      }
+    ],
+    "id": "owen-west"
+  },
+  {
     "name": "Paige Kurczek",
     "tier": 1,
     "engagement": "Active",
@@ -561,5 +953,55 @@
       }
     ],
     "id": "paige-kurczek"
+  },
+  {
+    "name": "Rachel Riley",
+    "tier": 1,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Leads the Navy and Marine Corps S&T enterprise, making her a high-value counterpart for diversifying ISN’s sponsor base beyond the Army.",
+    "hook": "MIT ISN as a source of advanced materials, sensing, energy, computing, and biomedical research relevant to naval and expeditionary missions.",
+    "bio": "Chief of Naval Research. ONR coordinates, executes, and promotes the science and technology programs of the U.S. Navy and Marine Corps.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Chief of Naval Research",
+        "org": "Office of Naval Research (ONR)",
+        "parentOrg": "Department of the Navy"
+      }
+    ],
+    "id": "rachel-riley"
+  },
+  {
+    "name": "Stephen Winchell",
+    "tier": 1,
+    "engagement": "Build",
+    "warmth": "Warm        # Cold / Warm / Hot",
+    "owner": "Franklin",
+    "lastContact": "",
+    "nextAction": "TBD",
+    "nextActionDate": "2026-04-25",
+    "introducedBy": "TBD",
+    "status": "Current",
+    "why": "Leads DARPA and therefore sits at one of the most consequential nodes for high-risk, high-payoff defense R&D, future program seeding, and strategic technical relevance.",
+    "hook": "MIT ISN as a source of foundational science and dual-use technical capabilities aligned to DARPA’s appetite for disruptive advances in photonics, advanced materials, sensing, energy, computation, and Soldier-relevant bio/medical technologies.",
+    "bio": "Director of DARPA since May 2025. Previously led AI and autonomy work at the Strategic Capabilities Office and served as chief engineer for Project Maven.",
+    "priority": "High",
+    "lane": [],
+    "positions": [
+      {
+        "title": "Director",
+        "org": "DARPA",
+        "parentOrg": "OUSW(R&E)"
+      }
+    ],
+    "id": "stephen-winchell"
   }
 ]
